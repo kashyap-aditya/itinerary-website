@@ -26,9 +26,46 @@
 				margin: 0;
 				font-size: 40px;
 			}
+			h2 {
+				color: #ff6f61;
+				margin-top: 40px;
+			}
 			header h3 {
 				margin: 5px 0 0 0;
 				font-weight: 400;
+			}
+			ul {
+				margin: 10px 0 20px 20px;
+			}
+			nav {
+				background: #333;
+				color: #fff;
+				display: flex;
+				justify-content: center;
+				flex-wrap: wrap;
+			}
+			nav a {
+				color: #fff;
+				text-decoration: none;
+				padding: 14px 20px;
+				display: block;
+			}
+			nav a:hover {
+				background: #555;
+			}
+			a {
+				color: #ff6f61;
+				text-decoration: none;
+			}
+			a:hover {
+				text-decoration: underline;
+			}
+			iframe {
+				width: 100%;
+				height: 400px;
+				border: none;
+				border-radius: 10px;
+				margin-top: 1em;
 			}
 			.container {
 				max-width: 900px;
@@ -38,47 +75,49 @@
 				border-radius: 12px;
 				box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
 			}
-			iframe {
-				width: 100%;
-				height: 400px;
-				border: none;
-				border-radius: 10px;
-				margin-top: 1em;
-			}
 			.section {
 				background-color: #fff3cd;
 				margin-bottom: 4em;
 			}
-			h2 {
-				color: #ff6f61;
-				margin-top: 40px;
-			}
-			ul {
-				margin: 10px 0 20px 20px;
-			}
-			table {
-				width: 100%;
+			.styled-table {
+				width: 95%;
+				margin: 20px auto;
 				border-collapse: collapse;
-				margin-top: 20px;
+				/* margin-top: 20px; */
 			}
-			table,
-			th,
-			td {
+			.styled-table th,
+			.styled-table td {
 				border: 1px solid #ccc;
+				padding: 12px;
+				text-align: center;
 			}
-			th {
+			.styled-table thead tr {
 				background-color: #ff6f61;
 				color: white;
 			}
-			th,
-			td {
-				padding: 12px;
-				text-align: center;
+			.styled-table tbody tr:nth-child(even) {
+				background-color: #f5f5f5; /* Light gray for even rows */
+			}
+			.styled-table tbody tr:nth-child(odd) {
+				background-color: #ffffff; /* White for odd rows */
+			}
+			.styled-table a {
+				color: #ff6f61;
+				text-decoration: none;
+			}
+			.styled-table a:hover {
+				text-decoration: underline;
+			}
+			.grouped-table .group-even {
+				background-color: #f5f5f5;
+			}
+			.grouped-table .group-odd {
+				background-color: #ffffff;
 			}
 			.note {
 				background-color: #fff3cd;
 				/* border-left: 6px solid #ffeeba; */
-				padding: 5px;
+				/* padding: 5px; */
 				margin-top: 5px;
 				border-radius: 8px;
 				font-style: italic;
@@ -89,7 +128,7 @@
 				/* vertical spacing, no auto-centering */
 				padding: 5px 0;
 				/* make max width 90 if you want to ensure it never overflows the viewport */
-				max-width: 90%;
+				max-width: 95%;
 				text-align: center;
 			}
 			/* Responsive image sizing & styling */
@@ -151,15 +190,14 @@
 				display: flex;
 			}
 			.lightbox img {
-				max-width: 90%;
-				max-height: 90%;
+				max-width: 100%;
+				max-height: 100%;
 			}
-			a {
-				color: #ff6f61;
-				text-decoration: none;
-			}
-			a:hover {
-				text-decoration: underline;
+			.lightbox figcaption {
+				text-align: center;
+				font-size: 0.9em;
+				color: #666;
+				margin-top: 5px;
 			}
 			@media (max-width: 600px) {
 				.carousel img {
@@ -175,9 +213,152 @@
 			<h3>October 29 – November 8, 2025</h3>
 		</header>
 
+		<nav>
+			<a href="#san_diego">San Diego</a>
+			<a href="#las_vegas">Las Vegas</a>
+			<a href="#zion">Zion National Park</a>
+			<a href="#bryce">Bryce Canyon National Park</a>
+			<a href="#page">Page</a>
+			<a href="#grand_canyon">Grand Canyon National Park</a>
+			<a href="#sedona">Sedona</a>
+			<a href="#phoenix">Phoenix</a>
+			<a href="#driving">Driving Schedule</a>
+		</nav>
+
 		<div class="container">
 			<!--San Diego-->
-			<div class="section">
+			<div class="section" id="table_summary">
+				<h2>Trip Summary</h2>
+				<table class="styled-table">
+					<thead>
+						<tr>
+							<th>Day</th>
+							<th>Date</th>
+							<th>Location(s)</th>
+							<th>Activities</th>
+							<th>Drive Details</th>
+						</tr>
+					</thead>
+					<tbody>
+						<tr>
+							<td>Day 1</td>
+							<td>Oct 29 (Wed)</td>
+							<td><a href="#san_diego">San Diego</a></td>
+							<td>Evening flight to San Diego</td>
+							<td>–</td>
+						</tr>
+						<tr>
+							<td>Day 2</td>
+							<td>Oct 30 (Thu)</td>
+							<td><a href="#san_diego">San Diego</a></td>
+							<td>Full day exploring San Diego</td>
+							<td>–</td>
+						</tr>
+						<tr>
+							<td>Day 3</td>
+							<td>Oct 31 (Fri)</td>
+							<td><a href="#san_diego">San Diego</a></td>
+							<td>Full day exploring San Diego</td>
+							<td>–</td>
+						</tr>
+						<tr>
+							<td>Day 4</td>
+							<td>Nov 1 (Sat)</td>
+							<td>
+								<a href="#san_diego">San Diego</a> →
+								<a href="#las_vegas">Las Vegas</a>
+							</td>
+							<td>
+								Drive after lunch, arrive by 6pm, explore the Strip, go to a
+								casino
+							</td>
+							<td>1:00 PM – 6:00 PM (5 hrs)</td>
+						</tr>
+						<tr>
+							<td>Day 5</td>
+							<td>Nov 2 (Sun)</td>
+							<td>
+								<a href="#las_vegas">Las Vegas</a> → <a href="#zion">Zion</a>
+							</td>
+							<td>Morning in Vegas, evening drive to Zion</td>
+							<td>6:30 PM – 9:00 PM (2.5 hrs)</td>
+						</tr>
+						<tr>
+							<td>Day 6</td>
+							<td>Nov 3 (Mon)</td>
+							<td><a href="#zion">Zion</a></td>
+							<td>Full day exploring Zion National Park</td>
+							<td>–</td>
+						</tr>
+						<tr>
+							<td>Day 7</td>
+							<td>Nov 4 (Tue)</td>
+							<td>
+								<a href="#zion">Zion</a> → <a href="#bryce">Bryce</a> →
+								<a href="#page">Page</a>
+							</td>
+							<td>
+								Morning drive to Bryce, explore 3–4 hrs, evening drive to Page
+							</td>
+							<td>9:00 AM – 11:30 AM (2.5 hrs), 6:00 PM – 9:00 PM (3 hrs)</td>
+						</tr>
+						<tr>
+							<td>Day 8</td>
+							<td>Nov 5 (Wed)</td>
+							<td>
+								<a href="#page">Page</a> →
+								<a href="#grand_canyon">Grand Canyon</a>
+							</td>
+							<td>
+								Antelope Canyon tour, Horseshoe Bend, evening drive to Grand
+								Canyon
+							</td>
+							<td>6:30 PM – 9:00 PM (2.5 hrs)</td>
+						</tr>
+						<tr>
+							<td>Day 9</td>
+							<td>Nov 6 (Thu)</td>
+							<td><a href="#grand_canyon">Grand Canyon</a></td>
+							<td>Full day at Grand Canyon</td>
+							<td>–</td>
+						</tr>
+						<tr>
+							<td>Day 10</td>
+							<td>Nov 7 (Fri)</td>
+							<td>
+								<a href="#grand_canyon">Grand Canyon</a> →
+								<a href="#sedona">Sedona</a>
+							</td>
+							<td>Morning drive to Sedona</td>
+							<td>9:00 AM – 11:00 AM (2 hrs)</td>
+						</tr>
+						<tr>
+							<td>Day 11</td>
+							<td>Nov 8 (Sat)</td>
+							<td>
+								<a href="#sedona">Sedona</a> → <a href="#phoenix">Phoenix</a>
+							</td>
+							<td>
+								Morning drive to Phoenix, visit Desert Botanical Garden (time
+								permitting)
+							</td>
+							<td>9:00 AM – 11:00 AM (2 hrs)</td>
+						</tr>
+					</tbody>
+				</table>
+
+				<!-- <iframe
+					src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d13438.386823984276!2d-117.1698819!3d32.7157386!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80d9549c92cb285d%3A0x621cb0201ef0d3b4!2sSan%20Diego%2C%20CA!5e0!3m2!1sen!2sus!4v1715197097323!5m2!1sen!2sus"
+				></iframe> -->
+
+				<!-- <iframe src="https://www.google.com/maps/d/u/0/embed?mid=1WVVafQ2FKNwQJViBGTIc8masvlCpAw4&ehbc=2E312F" width="640" height="480"></iframe> -->
+				<iframe
+					src="https://www.google.com/maps/d/u/0/embed?mid=1WVVafQ2FKNwQJViBGTIc8masvlCpAw4&ehbc=2E312F"
+				></iframe>
+			</div>
+
+			<!--San Diego-->
+			<div class="section" id="san_diego">
 				<h2>
 					<a href="https://www.sandiego.org/" target="_blank">San Diego, CA</a>
 					(Oct 29 - Oct 31)
@@ -235,13 +416,10 @@
 					<strong>"America’s Finest City"</strong> for its perfect weather,
 					scenic coastline, and vibrant cultural life.
 				</p>
-				<iframe
-					src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d13438.386823984276!2d-117.1698819!3d32.7157386!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80d9549c92cb285d%3A0x621cb0201ef0d3b4!2sSan%20Diego%2C%20CA!5e0!3m2!1sen!2sus!4v1715197097323!5m2!1sen!2sus"
-				></iframe>
 			</div>
 
 			<!--Las Vegas-->
-			<div class="section">
+			<div class="section" id="las_vegas">
 				<h2>
 					<a href="https://www.visitlasvegas.com/" target="_blank"
 						>Las Vegas, NV</a
@@ -303,7 +481,7 @@
 			</div>
 
 			<!--Zion National Park-->
-			<div class="section">
+			<div class="section" id="zion">
 				<h2>
 					<a href="https://www.nps.gov/zion/index.htm" target="_blank"
 						>Zion National Park, UT</a
@@ -332,7 +510,7 @@
 			</div>
 
 			<!--Bryce Canyon National Park-->
-			<div class="section">
+			<div class="section" id="bryce">
 				<h2>
 					<a href="https://www.nps.gov/brca/index.htm" target="_blank"
 						>Bryce Canyon National Park, UT</a
@@ -361,7 +539,7 @@
 			</div>
 
 			<!--Page, Arizona-->
-			<div class="section">
+			<div class="section" id="page">
 				<h2>
 					<a href="https://www.visitpagearizona.com/" target="_blank"
 						>Page, AZ</a
@@ -397,7 +575,7 @@
 			</div>
 
 			<!--Grand Canyon National Park-->
-			<div class="section">
+			<div class="section" id="grand_canyon">
 				<h2>
 					<a href="https://www.nps.gov/grca/index.htm" target="_blank"
 						>Grand Canyon National Park, AZ</a
@@ -426,7 +604,7 @@
 			</div>
 
 			<!--Sedona-->
-			<div class="section">
+			<div class="section" id="sedona">
 				<h2>
 					<a href="https://visitsedona.com/" target="_blank">Sedona, AZ</a> (Nov
 					7)
@@ -453,7 +631,7 @@
 			</div>
 
 			<!--Phoenix-->
-			<div class="section">
+			<div class="section" id="phoenix">
 				<h2>
 					<a href="https://www.visitphoenix.com/" target="_blank"
 						>Phoenix, AZ</a
@@ -490,12 +668,14 @@
 			</div>
 
 			<!--Driving Schedule Table-->
-			<div class="section">
+			<div class="section" id="driving">
 				<h2>🚗 Driving Schedule</h2>
 
-				<table style="width: 100%; border-collapse: collapse; margin-top: 20px">
+				<!-- Table with driving schedule -->
+				<table class="styled-table">
 					<thead>
-						<tr style="background-color: #ff6f61; color: white">
+						<!-- <tr style="background-color: #ff6f61; color: white"> -->
+						<tr>
 							<th>Date</th>
 							<th>Start Time</th>
 							<th>Duration</th>
@@ -504,56 +684,57 @@
 						</tr>
 					</thead>
 					<tbody>
-						<tr style="background-color: #ffffff">
+						<tr>
 							<td>Nov 1</td>
 							<td>1:00 PM</td>
 							<td>5 hours</td>
 							<td>San Diego</td>
 							<td>Las Vegas</td>
 						</tr>
-						<tr style="background-color: #83838316">
+						<tr>
 							<td>Nov 2</td>
 							<td>6:30 PM</td>
 							<td>2.5 hours</td>
 							<td>Las Vegas</td>
 							<td>Zion</td>
 						</tr>
-						<tr style="background-color: #ffffff">
+						<tr>
 							<td>Nov 3</td>
 							<td colspan="4"></td>
 						</tr>
-						<tr style="background-color: #83838316">
+						<tr>
 							<td rowspan="2">Nov 4</td>
 							<td>9:00 AM</td>
 							<td>2.5 hours</td>
 							<td>Zion</td>
 							<td>Bryce</td>
 						</tr>
-						<tr style="background-color: #83838316">
+						<tr style="display: none"></tr>
+						<tr>
 							<td>6:00 PM</td>
 							<td>3 hours</td>
 							<td>Bryce</td>
 							<td>Page</td>
 						</tr>
-						<tr style="background-color: #ffffff">
+						<tr>
 							<td>Nov 5</td>
 							<td>6:30 PM</td>
 							<td>2.5 hours</td>
 							<td>Page</td>
 							<td>Grand Canyon</td>
 						</tr>
-						<tr style="background-color: #83838316">
+						<tr>
 							<td>Nov 6</td>
 							<td colspan="4"></td>
 						</tr>
-						<tr style="background-color: #ffffff">
+						<tr>
 							<td>Nov 7</td>
 							<td>9:00 AM</td>
 							<td>2 hours</td>
 							<td>Grand Canyon</td>
 							<td>Sedona</td>
 						</tr>
-						<tr style="background-color: #83838316">
+						<tr>
 							<td>Nov 8</td>
 							<td>9:00 AM</td>
 							<td>2 hours</td>
@@ -562,15 +743,34 @@
 						</tr>
 					</tbody>
 				</table>
+
 				<h3>Using Lightbox</h3>
-				<figure class="note">
-					<a href="#schedule-lightbox" style="cursor: zoom-in">
+
+				<!-- This is used by the schedule-lightbox to display a zoomed in image -->
+				<div id="schedule-lightbox" class="lightbox">
+					<figure>
 						<img
-						src=https://i.ibb.co/MxGMMKtj/West-Coast-Trip-Driving-Schedule-copy.png"
-						alt="Lightbox Driving Schedule">
-					</a>
-					<figcaption>West Coast Trip – Driving Schedule</figcaption>
-				</figure>
+							src="https://i.ibb.co/MxGMMKtj/West-Coast-Trip-Driving-Schedule-copy.png"
+							alt="West Coast Trip – Driving Schedule (enlarged)"
+						/>
+						<figcaption>
+							West Coast Trip – Driving Schedule
+							<a href="#" style="margin-left: 1em; color: white">× Close</a>
+						</figcaption>
+					</figure>
+				</div>
+
+				<div class="note">
+					<figure>
+						<a href="#schedule-lightbox" style="cursor: zoom-in">
+							<img
+								src="https://i.ibb.co/MxGMMKtj/West-Coast-Trip-Driving-Schedule-copy.png"
+								alt="Lightbox Driving Schedule"
+							/>
+						</a>
+						<figcaption>Lightbox West Coast Trip – Driving Schedule</figcaption>
+					</figure>
+				</div>
 
 				<h3>Using html style</h3>
 				<div class="note">
@@ -585,7 +785,9 @@
 								alt="West Coast Trip – Driving Schedule"
 							/>
 						</a>
-						<figcaption>West Coast Trip – Driving Schedule</figcaption>
+						<figcaption>
+							Blank Target West Coast Trip – Driving Schedule
+						</figcaption>
 					</figure>
 				</div>
 			</div>
