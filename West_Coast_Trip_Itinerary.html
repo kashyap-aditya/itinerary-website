@@ -77,7 +77,7 @@
 			}
 			.note {
 				background-color: #fff3cd;
-				border-left: 6px solid #ffeeba;
+				/* border-left: 6px solid #ffeeba; */
 				padding: 5px;
 				margin-top: 5px;
 				border-radius: 8px;
@@ -87,10 +87,9 @@
 			.note figure {
 				margin: 0 auto;
 				/* vertical spacing, no auto-centering */
-				margin: 10px 0;
 				padding: 5px 0;
 				/* make max width 90 if you want to ensure it never overflows the viewport */
-				max-width: 100%;
+				max-width: 90%;
 				text-align: center;
 			}
 			/* Responsive image sizing & styling */
@@ -137,6 +136,24 @@
 				color: #666;
 				margin-top: 5px;
 			}
+			.lightbox {
+				position: fixed;
+				top: 0;
+				left: 0;
+				right: 0;
+				bottom: 0;
+				background: rgba(0, 0, 0, 0.8);
+				display: none;
+				align-items: center;
+				justify-content: center;
+			}
+			.lightbox:target {
+				display: flex;
+			}
+			.lightbox img {
+				max-width: 90%;
+				max-height: 90%;
+			}
 			a {
 				color: #ff6f61;
 				text-decoration: none;
@@ -154,7 +171,7 @@
 	</head>
 	<body>
 		<header>
-			<h1>🇺🇸 West Coast Family Adventure</h1>
+			<h1>🇮🇳 West Coast Family Adventure 🇺🇸</h1>
 			<h3>October 29 – November 8, 2025</h3>
 		</header>
 
@@ -545,7 +562,17 @@
 						</tr>
 					</tbody>
 				</table>
+				<h3>Using Lightbox</h3>
+				<figure class="note">
+					<a href="#schedule-lightbox" style="cursor: zoom-in">
+						<img
+						src=https://i.ibb.co/MxGMMKtj/West-Coast-Trip-Driving-Schedule-copy.png"
+						alt="Lightbox Driving Schedule">
+					</a>
+					<figcaption>West Coast Trip – Driving Schedule</figcaption>
+				</figure>
 
+				<h3>Using html style</h3>
 				<div class="note">
 					<figure>
 						<a
