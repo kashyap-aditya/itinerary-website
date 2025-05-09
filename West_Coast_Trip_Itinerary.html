@@ -38,6 +38,17 @@
 				border-radius: 12px;
 				box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
 			}
+			iframe {
+				width: 100%;
+				height: 400px;
+				border: none;
+				border-radius: 10px;
+				margin-top: 1em;
+			}
+			.section {
+				background-color: #fff3cd;
+				margin-bottom: 4em;
+			}
 			h2 {
 				color: #ff6f61;
 				margin-top: 40px;
@@ -67,10 +78,36 @@
 			.note {
 				background-color: #fff3cd;
 				border-left: 6px solid #ffeeba;
-				padding: 12px;
-				margin-top: 30px;
-				border-radius: 5px;
+				padding: 5px;
+				margin-top: 5px;
+				border-radius: 8px;
 				font-style: italic;
+			}
+			/* Make the .note figure match carousel spacing & centering */
+			.note figure {
+				margin: 0 auto;
+				/* vertical spacing, no auto-centering */
+				/* margin: 10px 0; */
+				/* padding: 5px 0; */
+				/* make max width 90 if you want to ensure it never overflows the viewport */
+				max-width: 100%;
+				text-align: center;
+			}
+			/* Responsive image sizing & styling */
+			.note img {
+				display: block;
+				width: 100%;
+				/* height auto to maintain aspect ratio */
+				height: auto;
+				border-radius: 8px;
+				/* object fit - crops to fill, like the carousel */
+				object-fit: cover;
+				background-color: #ccc;
+			}
+			.note figcaption {
+				font-size: 0.9em;
+				color: #666;
+				margin-top: 5px;
 			}
 			.carousel {
 				display: flex;
@@ -122,368 +159,408 @@
 		</header>
 
 		<div class="container">
-			<h2>
-				<a href="https://www.sandiego.org/" target="_blank">San Diego, CA</a>
-				(Oct 29 - Oct 31)
-			</h2>
-			<div class="carousel">
-				<figure>
-					<img src="#" alt="San Diego Image 1 [Add URL]" />
-					<figcaption>Balboa Park</figcaption>
-				</figure>
-				<figure>
-					<img src="#" alt="San Diego Image 2 [Add URL]" />
-					<figcaption>La Jolla Cove</figcaption>
-				</figure>
-				<figure>
-					<img
-						src="https://img2.10bestmedia.com/Images/Photos/419982/San-Diego-Zoo_54_990x660.jpg?auto=webp&width=3840&quality=75"
-						alt="San Diego Image 3"
-					/>
-					<figcaption>San Diego Zoo</figcaption>
-				</figure>
+			<div class="section">
+				<h2>
+					<a href="https://www.sandiego.org/" target="_blank">San Diego, CA</a>
+					(Oct 29 - Oct 31)
+				</h2>
+				<div class="carousel">
+					<figure>
+						<img src="#" alt="San Diego Image 1 [Add URL]" />
+						<figcaption>Balboa Park</figcaption>
+					</figure>
+					<figure>
+						<img src="#" alt="San Diego Image 2 [Add URL]" />
+						<figcaption>La Jolla Cove</figcaption>
+					</figure>
+					<figure>
+						<img
+							src="https://img2.10bestmedia.com/Images/Photos/419982/San-Diego-Zoo_54_990x660.jpg?auto=webp&width=3840&quality=75"
+							alt="San Diego Image 3"
+						/>
+						<figcaption>San Diego Zoo</figcaption>
+					</figure>
+				</div>
+				<ul>
+					<li>
+						<strong
+							><a href="https://www.balboapark.org/" target="_blank"
+								>Balboa Park</a
+							></strong
+						>
+						– A cultural oasis spanning 1,200 acres, featuring 18 museums, lush
+						gardens, and the world-renowned San Diego Zoo.
+					</li>
+					<li>
+						<strong
+							><a href="https://zoo.sandiegozoo.org/" target="_blank"
+								>San Diego Zoo</a
+							></strong
+						>
+						– Home to over 3,700 rare and endangered animals across 100 acres,
+						offering immersive exhibits and unique animal encounters.
+					</li>
+					<li>
+						<strong
+							><a
+								href="https://www.lajolla.com/guides/lajolla-cove/"
+								target="_blank"
+								>La Jolla Cove</a
+							></strong
+						>
+						– A picturesque beach known for its crystal-clear waters, ideal for
+						snorkeling and observing sea lions in their natural habitat.
+					</li>
+				</ul>
+				<p>
+					<em>Fun fact:</em> San Diego is often called
+					<strong>"America’s Finest City"</strong> for its perfect weather,
+					scenic coastline, and vibrant cultural life.
+				</p>
+				<iframe
+					src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d13438.386823984276!2d-117.1698819!3d32.7157386!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80d9549c92cb285d%3A0x621cb0201ef0d3b4!2sSan%20Diego%2C%20CA!5e0!3m2!1sen!2sus!4v1715197097323!5m2!1sen!2sus"
+				></iframe>
 			</div>
-			<ul>
-				<li>
-					<strong
-						><a href="https://www.balboapark.org/" target="_blank"
-							>Balboa Park</a
-						></strong
+
+			<div class="section">
+				<h2>
+					<a href="https://www.visitlasvegas.com/" target="_blank"
+						>Las Vegas, NV</a
 					>
-					– A cultural oasis spanning 1,200 acres, featuring 18 museums, lush
-					gardens, and the world-renowned San Diego Zoo.
-				</li>
-				<li>
-					<strong
-						><a href="https://zoo.sandiegozoo.org/" target="_blank"
-							>San Diego Zoo</a
-						></strong
+					(Nov 1 - Nov 2)
+				</h2>
+				<div class="carousel">
+					<figure>
+						<img src="#" alt="San Diego Image 1 [Add URL]" />
+						<figcaption>Balboa Park</figcaption>
+					</figure>
+					<figure>
+						<img src="#" alt="San Diego Image 2 [Add URL]" />
+						<figcaption>La Jolla Cove</figcaption>
+					</figure>
+					<figure>
+						<img src="#" alt="San Diego Image 3 [Add URL]" />
+						<figcaption>San Diego Zoo</figcaption>
+					</figure>
+				</div>
+				<ul>
+					<li>
+						<strong
+							><a
+								href="https://bellagio.mgmresorts.com/en/entertainment/fountains-of-bellagio.html"
+								target="_blank"
+								>The Strip</a
+							></strong
+						>
+						– A 4.2-mile stretch lined with iconic hotels, casinos, and
+						entertainment venues. It's like stepping into a different world
+						every few blocks.
+					</li>
+					<li>
+						<strong
+							><a
+								href="https://bellagio.mgmresorts.com/en/entertainment/fountains-of-bellagio.html"
+								target="_blank"
+								>Fountains of Bellagio</a
+							></strong
+						>
+						– A captivating water show choreographed to music and lights,
+						erupting from a lake in front of the Bellagio Hotel.
+					</li>
+					<li>
+						<strong
+							><a href="https://vegasexperience.com/" target="_blank"
+								>Fremont Street</a
+							></strong
+						>
+						– The original Vegas hotspot, now home to a high-energy LED canopy
+						show, street performers, and live music.
+					</li>
+				</ul>
+				<p>
+					<em>Fun fact:</em> Las Vegas has the most hotel rooms of any city in
+					the world — over 150,000!
+				</p>
+			</div>
+
+			<div class="section">
+				<h2>
+					<a href="https://www.nps.gov/zion/index.htm" target="_blank"
+						>Zion National Park, UT</a
 					>
-					– Home to over 3,700 rare and endangered animals across 100 acres,
-					offering immersive exhibits and unique animal encounters.
-				</li>
-				<li>
-					<strong
-						><a
-							href="https://www.lajolla.com/guides/lajolla-cove/"
+					(Nov 3 - Nov 4)
+				</h2>
+				<div class="carousel">
+					<figure>
+						<img src="#" alt="San Diego Image 1 [Add URL]" />
+						<figcaption>Balboa Park</figcaption>
+					</figure>
+					<figure>
+						<img src="#" alt="San Diego Image 2 [Add URL]" />
+						<figcaption>La Jolla Cove</figcaption>
+					</figure>
+					<figure>
+						<img src="#" alt="San Diego Image 3 [Add URL]" />
+						<figcaption>San Diego Zoo</figcaption>
+					</figure>
+				</div>
+				<ul>
+					<li>Angels Landing</li>
+					<li>The Narrows</li>
+					<li>Kolob Canyons</li>
+				</ul>
+			</div>
+
+			<div class="section">
+				<h2>
+					<a href="https://www.nps.gov/brca/index.htm" target="_blank"
+						>Bryce Canyon National Park, UT</a
+					>
+					(Nov 4)
+				</h2>
+				<div class="carousel">
+					<figure>
+						<img src="#" alt="San Diego Image 1 [Add URL]" />
+						<figcaption>Balboa Park</figcaption>
+					</figure>
+					<figure>
+						<img src="#" alt="San Diego Image 2 [Add URL]" />
+						<figcaption>La Jolla Cove</figcaption>
+					</figure>
+					<figure>
+						<img src="#" alt="San Diego Image 3 [Add URL]" />
+						<figcaption>San Diego Zoo</figcaption>
+					</figure>
+				</div>
+				<ul>
+					<li>Bryce Amphitheater</li>
+					<li>Navajo Loop Trail</li>
+					<li>Sunset Point</li>
+				</ul>
+			</div>
+
+			<div class="section">
+				<h2>
+					<a href="https://www.visitpagearizona.com/" target="_blank"
+						>Page, AZ</a
+					>
+					(Nov 5)
+				</h2>
+				<div class="carousel">
+					<figure>
+						<img src="#" alt="San Diego Image 1 [Add URL]" />
+						<figcaption>Balboa Park</figcaption>
+					</figure>
+					<figure>
+						<img src="#" alt="San Diego Image 2 [Add URL]" />
+						<figcaption>La Jolla Cove</figcaption>
+					</figure>
+					<figure>
+						<img src="#" alt="San Diego Image 3 [Add URL]" />
+						<figcaption>San Diego Zoo</figcaption>
+					</figure>
+				</div>
+				<ul>
+					<li>
+						<a href="https://www.antelopecanyon.com/" target="_blank"
+							>Antelope Canyon</a
+						>
+					</li>
+					<li>
+						<a href="https://horseshoebend.com/" target="_blank"
+							>Horseshoe Bend</a
+						>
+					</li>
+				</ul>
+			</div>
+
+			<div class="section">
+				<h2>
+					<a href="https://www.nps.gov/grca/index.htm" target="_blank"
+						>Grand Canyon National Park, AZ</a
+					>
+					(Nov 6)
+				</h2>
+				<div class="carousel">
+					<figure>
+						<img src="#" alt="San Diego Image 1 [Add URL]" />
+						<figcaption>Balboa Park</figcaption>
+					</figure>
+					<figure>
+						<img src="#" alt="San Diego Image 2 [Add URL]" />
+						<figcaption>La Jolla Cove</figcaption>
+					</figure>
+					<figure>
+						<img src="#" alt="San Diego Image 3 [Add URL]" />
+						<figcaption>San Diego Zoo</figcaption>
+					</figure>
+				</div>
+				<ul>
+					<li>South Rim</li>
+					<li>Rim Trail</li>
+					<li>Visitor Center</li>
+				</ul>
+			</div>
+
+			<div class="section">
+				<h2>
+					<a href="https://visitsedona.com/" target="_blank">Sedona, AZ</a> (Nov
+					7)
+				</h2>
+				<div class="carousel">
+					<figure>
+						<img src="#" alt="San Diego Image 1 [Add URL]" />
+						<figcaption>Balboa Park</figcaption>
+					</figure>
+					<figure>
+						<img src="#" alt="San Diego Image 2 [Add URL]" />
+						<figcaption>La Jolla Cove</figcaption>
+					</figure>
+					<figure>
+						<img src="#" alt="San Diego Image 3 [Add URL]" />
+						<figcaption>San Diego Zoo</figcaption>
+					</figure>
+				</div>
+				<ul>
+					<li>Cathedral Rock</li>
+					<li>Chapel of the Holy Cross</li>
+					<li>Tlaquepaque Village</li>
+				</ul>
+			</div>
+
+			<div class="section">
+				<h2>
+					<a href="https://www.visitphoenix.com/" target="_blank"
+						>Phoenix, AZ</a
+					>
+					(Nov 8)
+				</h2>
+				<div class="carousel">
+					<figure>
+						<img src="#" alt="San Diego Image 1 [Add URL]" />
+						<figcaption>Balboa Park</figcaption>
+					</figure>
+					<figure>
+						<img src="#" alt="San Diego Image 2 [Add URL]" />
+						<figcaption>La Jolla Cove</figcaption>
+					</figure>
+					<figure>
+						<img src="#" alt="San Diego Image 3 [Add URL]" />
+						<figcaption>San Diego Zoo</figcaption>
+					</figure>
+				</div>
+				<ul>
+					<li>
+						<a href="https://dbg.org/" target="_blank"
+							>Desert Botanical Garden</a
+						>
+					</li>
+					<li>Camelback Mountain</li>
+					<li>
+						<a href="https://mim.org/" target="_blank"
+							>Musical Instrument Museum</a
+						>
+					</li>
+				</ul>
+			</div>
+
+			<div class="section">
+				<h2>🚗 Driving Schedule</h2>
+
+				<table style="width: 100%; border-collapse: collapse; margin-top: 20px">
+					<thead>
+						<tr style="background-color: #ff6f61; color: white">
+							<th>Date</th>
+							<th>Start Time</th>
+							<th>Duration</th>
+							<th>From</th>
+							<th>To</th>
+						</tr>
+					</thead>
+					<tbody>
+						<tr style="background-color: #ffffff">
+							<td>Nov 1</td>
+							<td>1:00 PM</td>
+							<td>5 hours</td>
+							<td>San Diego</td>
+							<td>Las Vegas</td>
+						</tr>
+						<tr style="background-color: #83838316">
+							<td>Nov 2</td>
+							<td>6:30 PM</td>
+							<td>2.5 hours</td>
+							<td>Las Vegas</td>
+							<td>Zion</td>
+						</tr>
+						<tr style="background-color: #ffffff">
+							<td>Nov 3</td>
+							<td></td>
+							<td></td>
+							<td></td>
+							<td></td>
+						</tr>
+						<tr style="background-color: #83838316">
+							<td rowspan="2">Nov 4</td>
+							<td>9:00 AM</td>
+							<td>2.5 hours</td>
+							<td>Zion</td>
+							<td>Bryce</td>
+						</tr>
+						<tr style="background-color: #83838316">
+							<td>6:00 PM</td>
+							<td>3 hours</td>
+							<td>Bryce</td>
+							<td>Page</td>
+						</tr>
+						<tr style="background-color: #ffffff">
+							<td>Nov 5</td>
+							<td>6:30 PM</td>
+							<td>2.5 hours</td>
+							<td>Page</td>
+							<td>Grand Canyon</td>
+						</tr>
+						<tr style="background-color: #83838316">
+							<td>Nov 6</td>
+							<td></td>
+							<td></td>
+							<td></td>
+							<td></td>
+						</tr>
+						<tr style="background-color: #ffffff">
+							<td>Nov 7</td>
+							<td>9:00 AM</td>
+							<td>2 hours</td>
+							<td>Grand Canyon</td>
+							<td>Sedona</td>
+						</tr>
+						<tr style="background-color: #83838316">
+							<td>Nov 8</td>
+							<td>9:00 AM</td>
+							<td>2 hours</td>
+							<td>Sedona</td>
+							<td>Phoenix</td>
+						</tr>
+					</tbody>
+				</table>
+			</div>
+
+			<div class="section">
+				<h2>🚗 Driving Calendar</h2>
+				<div class="note">
+					<figure>
+						<a
+							href="https://i.ibb.co/MxGMMKtj/West-Coast-Trip-Driving-Schedule-copy.png"
 							target="_blank"
-							>La Jolla Cove</a
-						></strong
-					>
-					– A picturesque beach known for its crystal-clear waters, ideal for
-					snorkeling and observing sea lions in their natural habitat.
-				</li>
-			</ul>
-			<p>
-				<em>Fun fact:</em> San Diego is often called
-				<strong>"America’s Finest City"</strong> for its perfect weather, scenic
-				coastline, and vibrant cultural life.
-			</p>
-
-			<h2>
-				<a href="https://www.visitlasvegas.com/" target="_blank"
-					>Las Vegas, NV</a
-				>
-				(Nov 1 - Nov 2)
-			</h2>
-			<div class="carousel">
-				<figure>
-					<img src="#" alt="San Diego Image 1 [Add URL]" />
-					<figcaption>Balboa Park</figcaption>
-				</figure>
-				<figure>
-					<img src="#" alt="San Diego Image 2 [Add URL]" />
-					<figcaption>La Jolla Cove</figcaption>
-				</figure>
-				<figure>
-					<img src="#" alt="San Diego Image 3 [Add URL]" />
-					<figcaption>San Diego Zoo</figcaption>
-				</figure>
-			</div>
-			<ul>
-				<li>
-					<strong
-						><a
-							href="https://bellagio.mgmresorts.com/en/entertainment/fountains-of-bellagio.html"
-							target="_blank"
-							>The Strip</a
-						></strong
-					>
-					– A 4.2-mile stretch lined with iconic hotels, casinos, and
-					entertainment venues. It's like stepping into a different world every
-					few blocks.
-				</li>
-				<li>
-					<strong
-						><a
-							href="https://bellagio.mgmresorts.com/en/entertainment/fountains-of-bellagio.html"
-							target="_blank"
-							>Fountains of Bellagio</a
-						></strong
-					>
-					– A captivating water show choreographed to music and lights, erupting
-					from a lake in front of the Bellagio Hotel.
-				</li>
-				<li>
-					<strong
-						><a href="https://vegasexperience.com/" target="_blank"
-							>Fremont Street</a
-						></strong
-					>
-					– The original Vegas hotspot, now home to a high-energy LED canopy
-					show, street performers, and live music.
-				</li>
-			</ul>
-			<p>
-				<em>Fun fact:</em> Las Vegas has the most hotel rooms of any city in the
-				world — over 150,000!
-			</p>
-
-			<h2>
-				<a href="https://www.nps.gov/zion/index.htm" target="_blank"
-					>Zion National Park, UT</a
-				>
-				(Nov 3 - Nov 4)
-			</h2>
-			<div class="carousel">
-				<figure>
-					<img src="#" alt="San Diego Image 1 [Add URL]" />
-					<figcaption>Balboa Park</figcaption>
-				</figure>
-				<figure>
-					<img src="#" alt="San Diego Image 2 [Add URL]" />
-					<figcaption>La Jolla Cove</figcaption>
-				</figure>
-				<figure>
-					<img src="#" alt="San Diego Image 3 [Add URL]" />
-					<figcaption>San Diego Zoo</figcaption>
-				</figure>
-			</div>
-			<ul>
-				<li>Angels Landing</li>
-				<li>The Narrows</li>
-				<li>Kolob Canyons</li>
-			</ul>
-
-			<h2>
-				<a href="https://www.nps.gov/brca/index.htm" target="_blank"
-					>Bryce Canyon National Park, UT</a
-				>
-				(Nov 4)
-			</h2>
-			<div class="carousel">
-				<figure>
-					<img src="#" alt="San Diego Image 1 [Add URL]" />
-					<figcaption>Balboa Park</figcaption>
-				</figure>
-				<figure>
-					<img src="#" alt="San Diego Image 2 [Add URL]" />
-					<figcaption>La Jolla Cove</figcaption>
-				</figure>
-				<figure>
-					<img src="#" alt="San Diego Image 3 [Add URL]" />
-					<figcaption>San Diego Zoo</figcaption>
-				</figure>
-			</div>
-			<ul>
-				<li>Bryce Amphitheater</li>
-				<li>Navajo Loop Trail</li>
-				<li>Sunset Point</li>
-			</ul>
-
-			<h2>
-				<a href="https://www.visitpagearizona.com/" target="_blank">Page, AZ</a>
-				(Nov 5)
-			</h2>
-			<div class="carousel">
-				<figure>
-					<img src="#" alt="San Diego Image 1 [Add URL]" />
-					<figcaption>Balboa Park</figcaption>
-				</figure>
-				<figure>
-					<img src="#" alt="San Diego Image 2 [Add URL]" />
-					<figcaption>La Jolla Cove</figcaption>
-				</figure>
-				<figure>
-					<img src="#" alt="San Diego Image 3 [Add URL]" />
-					<figcaption>San Diego Zoo</figcaption>
-				</figure>
-			</div>
-			<ul>
-				<li>
-					<a href="https://www.antelopecanyon.com/" target="_blank"
-						>Antelope Canyon</a
-					>
-				</li>
-				<li>
-					<a href="https://horseshoebend.com/" target="_blank"
-						>Horseshoe Bend</a
-					>
-				</li>
-			</ul>
-
-			<h2>
-				<a href="https://www.nps.gov/grca/index.htm" target="_blank"
-					>Grand Canyon National Park, AZ</a
-				>
-				(Nov 6)
-			</h2>
-			<div class="carousel">
-				<figure>
-					<img src="#" alt="San Diego Image 1 [Add URL]" />
-					<figcaption>Balboa Park</figcaption>
-				</figure>
-				<figure>
-					<img src="#" alt="San Diego Image 2 [Add URL]" />
-					<figcaption>La Jolla Cove</figcaption>
-				</figure>
-				<figure>
-					<img src="#" alt="San Diego Image 3 [Add URL]" />
-					<figcaption>San Diego Zoo</figcaption>
-				</figure>
-			</div>
-			<ul>
-				<li>South Rim</li>
-				<li>Rim Trail</li>
-				<li>Visitor Center</li>
-			</ul>
-
-			<h2>
-				<a href="https://visitsedona.com/" target="_blank">Sedona, AZ</a> (Nov
-				7)
-			</h2>
-			<div class="carousel">
-				<figure>
-					<img src="#" alt="San Diego Image 1 [Add URL]" />
-					<figcaption>Balboa Park</figcaption>
-				</figure>
-				<figure>
-					<img src="#" alt="San Diego Image 2 [Add URL]" />
-					<figcaption>La Jolla Cove</figcaption>
-				</figure>
-				<figure>
-					<img src="#" alt="San Diego Image 3 [Add URL]" />
-					<figcaption>San Diego Zoo</figcaption>
-				</figure>
-			</div>
-			<ul>
-				<li>Cathedral Rock</li>
-				<li>Chapel of the Holy Cross</li>
-				<li>Tlaquepaque Village</li>
-			</ul>
-
-			<h2>
-				<a href="https://www.visitphoenix.com/" target="_blank">Phoenix, AZ</a>
-				(Nov 8)
-			</h2>
-			<div class="carousel">
-				<figure>
-					<img src="#" alt="San Diego Image 1 [Add URL]" />
-					<figcaption>Balboa Park</figcaption>
-				</figure>
-				<figure>
-					<img src="#" alt="San Diego Image 2 [Add URL]" />
-					<figcaption>La Jolla Cove</figcaption>
-				</figure>
-				<figure>
-					<img src="#" alt="San Diego Image 3 [Add URL]" />
-					<figcaption>San Diego Zoo</figcaption>
-				</figure>
-			</div>
-			<ul>
-				<li>
-					<a href="https://dbg.org/" target="_blank">Desert Botanical Garden</a>
-				</li>
-				<li>Camelback Mountain</li>
-				<li>
-					<a href="https://mim.org/" target="_blank"
-						>Musical Instrument Museum</a
-					>
-				</li>
-			</ul>
-
-			<h2>🚗 Driving Schedule</h2>
-
-			<table style="width: 100%; border-collapse: collapse; margin-top: 20px">
-				<thead>
-					<tr style="background-color: #ff6f61; color: white">
-						<th>Date</th>
-						<th>Start Time</th>
-						<th>Duration</th>
-						<th>From</th>
-						<th>To</th>
-					</tr>
-				</thead>
-				<tbody>
-					<tr style="background-color: #ffffff">
-						<td>Nov 1</td>
-						<td>1:00 PM</td>
-						<td>5 hours</td>
-						<td>San Diego</td>
-						<td>Las Vegas</td>
-					</tr>
-					<tr style="background-color: #83838316">
-						<td>Nov 2</td>
-						<td>6:30 PM</td>
-						<td>2.5 hours</td>
-						<td>Las Vegas</td>
-						<td>Zion</td>
-					</tr>
-					<tr style="background-color: #ffffff">
-						<td>Nov 3</td>
-						<td></td>
-						<td></td>
-						<td></td>
-						<td></td>
-					</tr>
-					<tr style="background-color: #83838316">
-						<td rowspan="2">Nov 4</td>
-						<td>9:00 AM</td>
-						<td>2.5 hours</td>
-						<td>Zion</td>
-						<td>Bryce</td>
-					</tr>
-					<tr style="background-color: #83838316">
-						<td>6:00 PM</td>
-						<td>3 hours</td>
-						<td>Bryce</td>
-						<td>Page</td>
-					</tr>
-					<tr style="background-color: #ffffff">
-						<td>Nov 5</td>
-						<td>6:30 PM</td>
-						<td>2.5 hours</td>
-						<td>Page</td>
-						<td>Grand Canyon</td>
-					</tr>
-					<tr style="background-color: #83838316">
-						<td>Nov 6</td>
-						<td></td>
-						<td></td>
-						<td></td>
-						<td></td>
-					</tr>
-					<tr style="background-color: #ffffff">
-						<td>Nov 7</td>
-						<td>9:00 AM</td>
-						<td>2 hours</td>
-						<td>Grand Canyon</td>
-						<td>Sedona</td>
-					</tr>
-					<tr style="background-color: #83838316">
-						<td>Nov 8</td>
-						<td>9:00 AM</td>
-						<td>2 hours</td>
-						<td>Sedona</td>
-						<td>Phoenix</td>
-					</tr>
-				</tbody>
-			</table>
-
-			<div class="note">
-				<strong>[Insert Calendar Image Here]</strong><br />
-				(Add your generated driving calendar image here for better visual
-				representation.)
+							style="display: block; cursor: zoom-in"
+						>
+							<img
+								src="https://i.ibb.co/MxGMMKtj/West-Coast-Trip-Driving-Schedule-copy.png"
+								alt="West Coast Trip – Driving Schedule"
+							/>
+						</a>
+						<figcaption>West Coast Trip – Driving Schedule</figcaption>
+					</figure>
+				</div>
 			</div>
 		</div>
 	</body>
