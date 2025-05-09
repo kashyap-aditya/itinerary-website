@@ -72,16 +72,18 @@
 				border-radius: 5px;
 				font-style: italic;
 			}
-			.image-placeholder {
-				background-color: #e0e0e0;
-				height: 200px;
-				border-radius: 8px;
-				margin: 10px 0 20px 0;
+			.carousel {
 				display: flex;
-				align-items: center;
-				justify-content: center;
-				color: #666;
-				font-size: 18px;
+				overflow-x: auto;
+				gap: 10px;
+				padding: 10px 0;
+			}
+			.carousel img {
+				max-height: 200px;
+				border-radius: 8px;
+				background-color: #ccc;
+				min-width: 300px;
+				object-fit: cover;
 			}
 			a {
 				color: #ff6f61;
@@ -103,23 +105,24 @@
 				<a href="https://www.sandiego.org/" target="_blank">San Diego, CA</a>
 				(Oct 29 - Oct 31)
 			</h2>
-			<div class="image-placeholder">[ Add Image of San Diego Here ]</div>
+			<div class="carousel">
+				<img src="#" alt="San Diego Image 1 [Add URL]" />
+				<img src="#" alt="San Diego Image 2 [Add URL]" />
+				<img src="#" alt="San Diego Image 3 [Add URL]" />
+			</div>
 			<ul>
 				<li>
 					<a href="https://www.balboapark.org/" target="_blank">Balboa Park</a>
-					- Museums, gardens, architecture
 				</li>
 				<li>
 					<a href="https://zoo.sandiegozoo.org/" target="_blank"
 						>San Diego Zoo</a
 					>
-					- World-renowned zoo
 				</li>
 				<li>
 					<a href="https://www.lajolla.com/guides/lajolla-cove/" target="_blank"
 						>La Jolla Cove</a
 					>
-					- Coastal views and sea lions
 				</li>
 			</ul>
 
@@ -129,22 +132,24 @@
 				>
 				(Nov 1 - Nov 2)
 			</h2>
-			<div class="image-placeholder">[ Add Image of Las Vegas Here ]</div>
+			<div class="carousel">
+				<img src="#" alt="Las Vegas Image 1 [Add URL]" />
+				<img src="#" alt="Las Vegas Image 2 [Add URL]" />
+				<img src="#" alt="Las Vegas Image 3 [Add URL]" />
+			</div>
 			<ul>
-				<li>The Strip - Nightlife and casinos</li>
+				<li>The Strip</li>
 				<li>
 					<a
 						href="https://bellagio.mgmresorts.com/en/entertainment/fountains-of-bellagio.html"
 						target="_blank"
 						>Fountains of Bellagio</a
 					>
-					- Water show
 				</li>
 				<li>
 					<a href="https://vegasexperience.com/" target="_blank"
 						>Fremont Street</a
 					>
-					- LED canopy and street performers
 				</li>
 			</ul>
 
@@ -154,11 +159,14 @@
 				>
 				(Nov 3 - Nov 4)
 			</h2>
-			<div class="image-placeholder">[ Add Image of Zion Here ]</div>
+			<div class="carousel">
+				<img src="#" alt="Zion Image 1 [Add URL]" />
+				<img src="#" alt="Zion Image 2 [Add URL]" />
+			</div>
 			<ul>
-				<li>Angels Landing - Iconic hike</li>
-				<li>The Narrows - Walk through Virgin River</li>
-				<li>Kolob Canyons - Scenic area</li>
+				<li>Angels Landing</li>
+				<li>The Narrows</li>
+				<li>Kolob Canyons</li>
 			</ul>
 
 			<h2>
@@ -167,32 +175,34 @@
 				>
 				(Nov 4)
 			</h2>
-			<div class="image-placeholder">[ Add Image of Bryce Here ]</div>
+			<div class="carousel">
+				<img src="#" alt="Bryce Canyon Image 1 [Add URL]" />
+				<img src="#" alt="Bryce Canyon Image 2 [Add URL]" />
+			</div>
 			<ul>
-				<li>Bryce Amphitheater - Unique hoodoos</li>
-				<li>Navajo Loop Trail - Moderate hike</li>
-				<li>Sunset Point - Amazing views</li>
+				<li>Bryce Amphitheater</li>
+				<li>Navajo Loop Trail</li>
+				<li>Sunset Point</li>
 			</ul>
 
 			<h2>
 				<a href="https://www.visitpagearizona.com/" target="_blank">Page, AZ</a>
 				(Nov 5)
 			</h2>
-			<div class="image-placeholder">
-				[ Add Image of Page / Antelope Canyon Here ]
+			<div class="carousel">
+				<img src="#" alt="Page Image 1 [Add URL]" />
+				<img src="#" alt="Page Image 2 [Add URL]" />
 			</div>
 			<ul>
 				<li>
 					<a href="https://www.antelopecanyon.com/" target="_blank"
 						>Antelope Canyon</a
 					>
-					- Slot canyon tour
 				</li>
 				<li>
 					<a href="https://horseshoebend.com/" target="_blank"
 						>Horseshoe Bend</a
 					>
-					- Colorado River overlook
 				</li>
 			</ul>
 
@@ -202,40 +212,47 @@
 				>
 				(Nov 6)
 			</h2>
-			<div class="image-placeholder">[ Add Image of Grand Canyon Here ]</div>
+			<div class="carousel">
+				<img src="#" alt="Grand Canyon Image 1 [Add URL]" />
+				<img src="#" alt="Grand Canyon Image 2 [Add URL]" />
+			</div>
 			<ul>
-				<li>South Rim - Viewpoints like Mather Point</li>
-				<li>Rim Trail - Scenic walk</li>
-				<li>Visitor Center - Learn about canyon history</li>
+				<li>South Rim</li>
+				<li>Rim Trail</li>
+				<li>Visitor Center</li>
 			</ul>
 
 			<h2>
 				<a href="https://visitsedona.com/" target="_blank">Sedona, AZ</a> (Nov
 				7)
 			</h2>
-			<div class="image-placeholder">[ Add Image of Sedona Here ]</div>
+			<div class="carousel">
+				<img src="#" alt="Sedona Image 1 [Add URL]" />
+				<img src="#" alt="Sedona Image 2 [Add URL]" />
+			</div>
 			<ul>
-				<li>Cathedral Rock - Short hike</li>
-				<li>Chapel of the Holy Cross - Built into rocks</li>
-				<li>Tlaquepaque Village - Art and shopping</li>
+				<li>Cathedral Rock</li>
+				<li>Chapel of the Holy Cross</li>
+				<li>Tlaquepaque Village</li>
 			</ul>
 
 			<h2>
 				<a href="https://www.visitphoenix.com/" target="_blank">Phoenix, AZ</a>
 				(Nov 8)
 			</h2>
-			<div class="image-placeholder">[ Add Image of Phoenix Here ]</div>
+			<div class="carousel">
+				<img src="#" alt="Phoenix Image 1 [Add URL]" />
+				<img src="#" alt="Phoenix Image 2 [Add URL]" />
+			</div>
 			<ul>
 				<li>
 					<a href="https://dbg.org/" target="_blank">Desert Botanical Garden</a>
-					- Desert plants
 				</li>
-				<li>Camelback Mountain - Optional hike</li>
+				<li>Camelback Mountain</li>
 				<li>
 					<a href="https://mim.org/" target="_blank"
 						>Musical Instrument Museum</a
 					>
-					- Interactive exhibits
 				</li>
 			</ul>
 
