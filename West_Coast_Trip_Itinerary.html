@@ -61,11 +61,15 @@
 				text-decoration: underline;
 			}
 			iframe {
-				width: 100%;
-				height: 400px;
+				width: 80%;
+				display: block;
+				min-height: 400px;
+				height: auto;
 				border: none;
 				border-radius: 10px;
-				margin-top: 1em;
+				/* margin-top: 1em; */
+				padding: 30px;
+				margin: 0 auto;
 			}
 			.container {
 				max-width: 900px;
@@ -76,7 +80,7 @@
 				box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
 			}
 			.section {
-				background-color: #fff3cd;
+				/* background-color: #fff3cd; */
 				margin-bottom: 4em;
 			}
 			.styled-table {
@@ -118,7 +122,7 @@
 				background-color: #fff3cd;
 				/* border-left: 6px solid #ffeeba; */
 				/* padding: 5px; */
-				margin-top: 5px;
+				margin-top: 10px;
 				border-radius: 8px;
 				font-style: italic;
 			}
@@ -126,7 +130,7 @@
 			.note figure {
 				margin: 0 auto;
 				/* vertical spacing, no auto-centering */
-				padding: 5px 0;
+				padding: 10px 10px;
 				/* make max width 90 if you want to ensure it never overflows the viewport */
 				max-width: 95%;
 				text-align: center;
@@ -203,6 +207,28 @@
 				color: #666;
 				margin-top: 5px;
 			}
+			.callout {
+				/* display: none; */
+				padding: 12px;
+				margin: 16px 0;
+				border-radius: 6px;
+			}
+			.callout.fact {
+				background: #e8f4fd;
+				border-left: 6px solid #3498db;
+			}
+			.callout.food {
+				background: #fff9e6;
+				border-left: 6px solid #f1c40f;
+			}
+			.callout.tip {
+				background: #eafaf1;
+				border-left: 6px solid #2ecc71;
+			}
+			.callout.experiences {
+				background: #eafaf1;
+				border-left: 6px solid #cc2e9d;
+			}
 			@media (max-width: 600px) {
 				.carousel img {
 					min-width: 80%;
@@ -230,7 +256,7 @@
 		</nav>
 
 		<div class="container">
-			<!--San Diego-->
+			<!--Summary of trip - Table-->
 			<div class="section" id="table_summary">
 				<h2>Trip Summary</h2>
 				<table class="styled-table">
@@ -351,11 +377,6 @@
 					</tbody>
 				</table>
 
-				<!-- <iframe
-					src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d13438.386823984276!2d-117.1698819!3d32.7157386!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80d9549c92cb285d%3A0x621cb0201ef0d3b4!2sSan%20Diego%2C%20CA!5e0!3m2!1sen!2sus!4v1715197097323!5m2!1sen!2sus"
-				></iframe> -->
-
-				<!-- <iframe src="https://www.google.com/maps/d/u/0/embed?mid=1WVVafQ2FKNwQJViBGTIc8masvlCpAw4&ehbc=2E312F" width="640" height="480"></iframe> -->
 				<iframe
 					src="https://www.google.com/maps/d/u/0/embed?mid=1WVVafQ2FKNwQJViBGTIc8masvlCpAw4&ehbc=2E312F"
 				></iframe>
@@ -371,12 +392,15 @@
 					<figure>
 						<img
 							src="https://img2.10bestmedia.com/Images/Photos/419982/San-Diego-Zoo_54_990x660.jpg?auto=webp&width=3840&quality=75"
-							alt="San Diego Image 3"
+							alt="San Diego Zoo"
 						/>
 						<figcaption>San Diego Zoo</figcaption>
 					</figure>
 					<figure>
-						<img src="#" alt="San Diego Image 1 [Add URL]" />
+						<img
+							src="https://images.unsplash.com/photo-1542314831-068cd1dbfeeb?w=800&q=80"
+							alt="Balboa Park"
+						/>
 						<figcaption>Balboa Park</figcaption>
 					</figure>
 					<figure>
@@ -384,42 +408,68 @@
 						<figcaption>La Jolla Cove</figcaption>
 					</figure>
 				</div>
-				<ul>
-					<li>
-						<strong
-							><a href="https://www.balboapark.org/" target="_blank"
-								>Balboa Park</a
-							></strong
-						>
-						– A cultural oasis spanning 1,200 acres, featuring 18 museums, lush
-						gardens, and the world-renowned San Diego Zoo.
-					</li>
-					<li>
-						<strong
-							><a href="https://zoo.sandiegozoo.org/" target="_blank"
-								>San Diego Zoo</a
-							></strong
-						>
-						– Home to over 3,700 rare and endangered animals across 100 acres,
-						offering immersive exhibits and unique animal encounters.
-					</li>
-					<li>
-						<strong
-							><a
-								href="https://www.lajolla.com/guides/lajolla-cove/"
-								target="_blank"
-								>La Jolla Cove</a
-							></strong
-						>
-						– A picturesque beach known for its crystal-clear waters, ideal for
-						snorkeling and observing sea lions in their natural habitat.
-					</li>
-				</ul>
 				<p>
-					<em>Fun fact:</em> San Diego is often called
-					<strong>"America’s Finest City"</strong> for its perfect weather,
-					scenic coastline, and vibrant cultural life.
+					Nicknamed <strong>“America’s Finest City”</strong>, San Diego blends
+					70 miles of beaches with Spanish‑Colonial history, world‑class museums
+					and a booming craft‑beer scene.
 				</p>
+				<p>
+					<em>Weather in early November:</em> Warm afternoons ~70 °F; cool
+					nights ~56 °F; rare rain.
+				</p>
+				<div class="callout experiences">
+					<!-- <h3>Sights & Experiences</h3> -->
+					<strong>Sights & Experiences</strong>
+					<ul>
+						<li>
+							<strong
+								><a href="https://www.balboapark.org/" target="_blank"
+									>Balboa Park</a
+								></strong
+							>
+							– A cultural oasis spanning 1,200 acres, featuring 18 museums,
+							lush gardens, and the world-renowned San Diego Zoo.
+						</li>
+						<li>
+							<strong
+								><a href="https://zoo.sandiegozoo.org/" target="_blank"
+									>San Diego Zoo</a
+								></strong
+							>
+							– Home to over 3,700 rare and endangered animals across 100 acres,
+							offering immersive exhibits and unique animal encounters.
+						</li>
+						<li>
+							<strong
+								><a
+									href="https://www.lajolla.com/guides/lajolla-cove/"
+									target="_blank"
+									>La Jolla Cove</a
+								></strong
+							>
+							– A picturesque beach known for its crystal-clear waters, ideal
+							for snorkeling and observing sea lions in their natural habitat.
+						</li>
+					</ul>
+				</div>
+
+				<div class="callout food">
+					<strong>Food Highlights</strong>
+					<ul>
+						<li>All‑you‑can‑eat buffets</li>
+						<li>In‑N‑Out Burger</li>
+					</ul>
+				</div>
+				<div class="callout tip">
+					<strong>Practical Tips</strong>
+					<ul>
+						<li>No need for winter clothes</li>
+						<li>Open‑container drinks allowed on Strip (plastic only)</li>
+					</ul>
+				</div>
+				<div class="callout fact">
+					<strong>Did you know?</strong> Called America's Fined City
+				</div>
 			</div>
 
 			<!--Las Vegas-->
@@ -748,8 +798,6 @@
 					</tbody>
 				</table>
 
-				<h3>Using Lightbox</h3>
-
 				<!-- This is used by the schedule-lightbox to display a zoomed in image -->
 				<div id="schedule-lightbox" class="lightbox">
 					<figure>
@@ -772,7 +820,7 @@
 								alt="Lightbox Driving Schedule"
 							/>
 						</a>
-						<figcaption>Lightbox West Coast Trip – Driving Schedule</figcaption>
+						<figcaption>West Coast Trip – Driving Schedule</figcaption>
 					</figure>
 				</div>
 
