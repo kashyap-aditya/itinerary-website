@@ -73,7 +73,8 @@ nav a:hover {
 /* Back-button in header */
 .back-button {
 	display: inline-block;
-	margin-bottom: 1em;
+	/* margin-bottom: 1em; */
+	margin: 0 0 1em;
 	padding: 0.5em 1em;
 	background-color: #ff6f61; /* matches your link/color accent */
 	color: #fff;

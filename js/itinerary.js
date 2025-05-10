@@ -17,8 +17,14 @@ fetch(`data/${id}.json`)
 
 		// Header
 		const hdr = document.createElement("header");
-		hdr.innerHTML = `<h1>${data.header.title}</h1>
-                     <h3>${data.header.subtitle}</h3>`;
+		hdr.innerHTML = `
+			<a href="index.html" class="back-button">← All Trips</a>
+			<h1>${data.header.title}</h1>
+			<h3>${data.header.subtitle}</h3>
+		`;
+		// hdr.innerHTML = `
+		// 	<a href="index.html" class="back-button">← All Trips</a>
+		// `;
 		document.body.insertBefore(hdr, root);
 
 		// Nav
