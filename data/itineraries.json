@@ -1,4 +1,7 @@
 [
-	{ "id": "paris-2025", "title": "Paris in Spring", "date": "2025-04-15" },
-	{ "id": "tokyo-2025", "title": "Tokyo Food Tour", "date": "2025-06-01" }
+	{
+		"id": "west_coast_desert",
+		"title": "West Coast, Ocean + Desert",
+		"dates": "October 29 – November 8, 2025"
+	}
 ]

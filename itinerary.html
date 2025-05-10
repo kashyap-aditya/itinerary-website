@@ -1,21 +1,23 @@
 <!DOCTYPE html>
 <html lang="en">
 	<head>
-		<meta charset="utf-8" />
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 		<title>Itinerary</title>
+		<link
+			href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap"
+			rel="stylesheet"
+		/>
 		<link rel="stylesheet" href="css/styles.css" />
 	</head>
 	<body>
-		<a href="index.html">← Back to landing</a>
-		<article id="itinerary"></article>
-
-		<template id="section-tpl">
-			<section>
-				<h2 class="heading"></h2>
-				<ul class="items"></ul>
-			</section>
-		</template>
-
+		<!-- <header>
+			<a href="index.html" class="back-button">← All Trips</a>
+			<h1 id="trip-title">…</h1>
+			<h3 id="trip-subtitle">…</h3>
+		</header> -->
+		<!-- <a href="index.html">← Back to landing</a> -->
+		<div id="itinerary-root"></div>
 		<script src="js/itinerary.js"></script>
 	</body>
 </html>

@@ -1,0 +1,367 @@
+{
+	"header": {
+		"title": "🇮🇳 San Diego to Grand Canyon 🇺🇸",
+		"subtitle": "October 29 – November 8, 2025"
+	},
+	"navLinks": [
+		{ "href": "#san_diego", "text": "San Diego" },
+		{ "href": "#las_vegas", "text": "Las Vegas" },
+		{ "href": "#zion", "text": "Zion National Park" },
+		{ "href": "#bryce", "text": "Bryce Canyon National Park" },
+		{ "href": "#page", "text": "Page" },
+		{ "href": "#grand_canyon", "text": "Grand Canyon National Park" },
+		{ "href": "#sedona", "text": "Sedona" },
+		{ "href": "#phoenix", "text": "Phoenix" },
+		{ "href": "#driving", "text": "Driving Schedule" }
+	],
+	"summaryTable": {
+		"headers": ["Day", "Date", "Location(s)", "Activities", "Drive Details"],
+		"rows": [
+			[
+				"Day 1",
+				"Oct 29 (Wed)",
+				"<a href=\"#san_diego\">San Diego</a>",
+				"Evening flight to San Diego",
+				"–"
+			],
+			[
+				"Day 2",
+				"Oct 30 (Thu)",
+				"<a href=\"#san_diego\">San Diego</a>",
+				"Full day exploring San Diego",
+				"–"
+			],
+			[
+				"Day 3",
+				"Oct 31 (Fri)",
+				"<a href=\"#san_diego\">San Diego</a>",
+				"Full day exploring San Diego",
+				"–"
+			],
+			[
+				"Day 4",
+				"Nov 1 (Sat)",
+				"<a href=\"#san_diego\">San Diego</a> → <a href=\"#las_vegas\">Las Vegas</a>",
+				"Drive after lunch, arrive by 6pm, explore the Strip, go to a casino",
+				"1:00 PM – 6:00 PM (5 hrs)"
+			],
+			[
+				"Day 5",
+				"Nov 2 (Sun)",
+				"<a href=\"#las_vegas\">Las Vegas</a> → <a href=\"#zion\">Zion</a>",
+				"Morning in Vegas, evening drive to Zion",
+				"6:30 PM – 9:00 PM (2.5 hrs)"
+			],
+			[
+				"Day 6",
+				"Nov 3 (Mon)",
+				"<a href=\"#zion\">Zion</a>",
+				"Full day exploring Zion National Park",
+				"–"
+			],
+			[
+				"Day 7",
+				"Nov 4 (Tue)",
+				"<a href=\"#zion\">Zion</a> → <a href=\"#bryce\">Bryce</a> → <a href=\"#page\">Page</a>",
+				"Morning drive to Bryce, explore 3–4 hrs, evening drive to Page",
+				"9:00 AM – 11:30 AM (2.5 hrs), 6:00 PM – 9:00 PM (3 hrs)"
+			],
+			[
+				"Day 8",
+				"Nov 5 (Wed)",
+				"<a href=\"#page\">Page</a> → <a href=\"#grand_canyon\">Grand Canyon</a>",
+				"Antelope Canyon tour, Horseshoe Bend, evening drive to Grand Canyon",
+				"6:30 PM – 9:00 PM (2.5 hrs)"
+			],
+			[
+				"Day 9",
+				"Nov 6 (Thu)",
+				"<a href=\"#grand_canyon\">Grand Canyon</a>",
+				"Full day at Grand Canyon",
+				"–"
+			],
+			[
+				"Day 10",
+				"Nov 7 (Fri)",
+				"<a href=\"#grand_canyon\">Grand Canyon</a> → <a href=\"#sedona\">Sedona</a>",
+				"Morning drive to Sedona",
+				"9:00 AM – 11:00 AM (2 hrs)"
+			],
+			[
+				"Day 11",
+				"Nov 8 (Sat)",
+				"<a href=\"#sedona\">Sedona</a> → <a href=\"#phoenix\">Phoenix</a>",
+				"Morning drive to Phoenix, visit Desert Botanical Garden (time permitting)",
+				"9:00 AM – 11:00 AM (2 hrs)"
+			]
+		]
+	},
+	"mapEmbedUrl": "https://www.google.com/maps/d/u/0/embed?mid=1WVVafQ2FKNwQJViBGTIc8masvlCpAw4&ehbc=2E312F",
+	"sections": [
+		{
+			"id": "san_diego",
+			"heading": "<a href=\"https://www.sandiego.org/explore/things-to-do.aspx\" target=\"_blank\">San Diego, CA</a> (Oct 29 – Oct 31)",
+			"carousel": [
+				{
+					"img": "https://images.pexels.com/photos/2157685/pexels-photo-2157685.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+					"caption": "San Diego Marina"
+				},
+				{
+					"img": "https://plus.unsplash.com/premium_photo-1697730155844-40e94785d1e1",
+					"caption": "San Diego Port"
+				},
+				{
+					"img": "https://lajollamom.com/wp-content/w3-webp/uploads/2020/04/la-jolla-cove-san-diego-beach-1-scaled.jpgw3.webp",
+					"caption": "La Jolla Cove"
+				},
+				{
+					"img": "https://images.pexels.com/photos/2440337/pexels-photo-2440337.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+					"caption": "San Diego"
+				},
+				{
+					"img": "https://img2.10bestmedia.com/Images/Photos/419982/San-Diego-Zoo_54_990x660.jpg?auto=webp&width=3840&quality=75",
+					"caption": "San Diego Zoo"
+				},
+				{
+					"img": "https://drupal-prod.visitcalifornia.com/sites/default/files/styles/opengraph_1200x630/public/vc_spotlightbalboapark_hero_botanicalgarden_st_rf_724245028_1280x640.jpg.webp?itok=hIqsNk5V",
+					"caption": "Balboa Park"
+				}
+			],
+			"paragraphs": [
+				"Nicknamed <strong>“America’s Finest City”</strong>, San Diego blends 70 miles of beaches with Spanish-Colonial history, world-class museums and a booming craft-beer scene.",
+				"<em>Weather in early November:</em> Warm afternoons ~70 °F; cool nights ~56 °F; rare rain."
+			],
+			"callouts": [
+				{
+					"type": "fact",
+					"title": "Interesting facts",
+					"items": ["To-Do", "To-Do"]
+				},
+				{
+					"type": "experiences",
+					"title": "Sights & Experiences",
+					"items": [
+						"<strong><a href=\"https://www.balboapark.org/\" target=\"_blank\">Balboa Park</a></strong> – A cultural oasis spanning 1,200 acres, featuring 18 museums, lush gardens, and the world-renowned San Diego Zoo.",
+						"<strong><a href=\"https://zoo.sandiegozoo.org/\" target=\"_blank\">San Diego Zoo</a></strong> – Home to over 3,700 rare and endangered animals across 100 acres, offering immersive exhibits and unique animal encounters.",
+						"<strong><a href=\"https://www.lajolla.com/guides/lajolla-cove/\" target=\"_blank\">La Jolla Cove</a></strong> – A picturesque beach known for its crystal-clear waters, ideal for snorkeling and observing sea lions in their natural habitat."
+					]
+				},
+				{
+					"type": "food",
+					"title": "Food Highlights",
+					"items": ["To-Do", "To-Do"]
+				},
+				{
+					"type": "tip",
+					"title": "Practical Tips",
+					"items": ["No need for winter clothes", "To-Do"]
+				}
+			]
+		},
+		{
+			"id": "las_vegas",
+			"heading": "<a href=\"https://www.visitlasvegas.com/\" target=\"_blank\">Las Vegas, NV</a> (Nov 1 – Nov 2)",
+			"carousel": [
+				{
+					"img": "https://media.cnn.com/api/v1/images/stellar/prod/180313182911-01-las-vegas-travel-strip.jpg?q=w_3418,h_2556,x_0,y_0,c_fill",
+					"caption": "LV"
+				},
+				{
+					"img": "https://media-cdn.tripadvisor.com/media/attractions-content--1x-1/12/85/9e/df.jpg?f=webp&w=300&h=200",
+					"caption": "Las Vegas Aerial View"
+				},
+				{
+					"img": "https://static01.nyt.com/images/2023/04/13/multimedia/13hours-LasVegas-03-zjkm/13hours-LasVegas-03-zjkm-videoSixteenByNine3000-v2.jpg",
+					"caption": "Las Vegas Aerial View"
+				}
+			],
+			"listItems": [
+				"<strong><a href=\"https://bellagio.mgmresorts.com/en/entertainment/fountains-of-bellagio.html\" target=\"_blank\">The Strip</a></strong> – A 4.2-mile stretch lined with iconic hotels, casinos, and entertainment venues.",
+				"<strong><a href=\"https://bellagio.mgmresorts.com/en/entertainment/fountains-of-bellagio.html\" target=\"_blank\">Fountains of Bellagio</a></strong> – A captivating water show choreographed to music and lights.",
+				"<strong><a href=\"https://vegasexperience.com/\" target=\"_blank\">Fremont Street</a></strong> – The original Vegas hotspot, now home to a high-energy LED canopy show, street performers, and live music."
+			],
+			"paragraphs": [
+				"<em>Fun fact:</em> Las Vegas has the most hotel rooms of any city in the world — over 150,000!"
+			]
+		},
+		{
+			"id": "zion",
+			"heading": "<a href=\"https://www.nps.gov/zion/index.htm\" target=\"_blank\">Zion National Park, UT</a> (Nov 3 – Nov 4)",
+			"carousel": [
+				{
+					"img": "https://www.citrusmilo.com/zion2012/joebraun_angelslanding02.jpg",
+					"caption": "Angels Landing Hike"
+				},
+				{
+					"img": "https://lh3.googleusercontent.com/gps-cs-s/AC9h4noVV88iS6o5L_uygqEdkQl5toumE4BCEYWvl0y3DgzNunvKXIv3Y8Za2XpCc9GefGUkcWsxwMbFbzbKYbUDvfpRuezGSZV3v34hkzEKxAvLGiNI0BUnoxuo-FXQFwT1Br6BMDx-=s1360-w1360-h1020",
+					"caption": ""
+				},
+				{
+					"img": "https://lh3.googleusercontent.com/gps-cs-s/AC9h4nqMriUJvGNKlFr3VGPx8nzPWn3wn7U3NWQm6hk7Dlvbbe8rmG0r_7TMFuE-SnuQA3YVVJAqk-Fieab8s5MCcZag4N2p9BYSZgW70Is4ObQUiTQVu_YoYnaTpQnLRegyBYAAdR2K=s1360-w1360-h1020",
+					"caption": ""
+				},
+				{
+					"img": "https://lh3.googleusercontent.com/gps-cs-s/AC9h4npe1DQdDh-vCsu-WfXO17QWmJBwelmu4KCTYkkMRMxeEur11dknsN4BJGm-c-Y7pzvLlGCuKfQysFg_sMShAvG1Rd9srjyqB8EZLkNKFXrBgi4hdrKrDtKHbnNuFmF2nYjgUEfK=s1360-w1360-h1020",
+					"caption": ""
+				},
+				{
+					"img": "https://lh3.googleusercontent.com/gps-cs-s/AC9h4nqTAcpx4krWEeHa9ty9Ju3KuDD5CqsuYNhwO_Fvdmlm4oYQG6dhkoHlLHe17zEf8slibhQMY_4RTkz0QFUlequARC4KX0tQLkqKMzUUmxYox9kNEsBUok-5aEyV7ur9E21Scek=s1360-w1360-h1020",
+					"caption": ""
+				},
+				{
+					"img": "https://lh3.googleusercontent.com/gps-cs-s/AC9h4npU9BuJ3J97ivdD31svLQwp7DAAbkfQl3_PCphBsDSr9WhA4ePDdniRpY6aBC09_aoy2JwucEBgnJP7syvsxXcvBX5f_3yeKQctxlBARU_NhTFoNV9lahcF4Bi4r74ox6z_TNs=s1360-w1360-h1020",
+					"caption": ""
+				}
+			],
+			"listItems": ["Angels Landing", "The Narrows", "Kolob Canyons"]
+		},
+		{
+			"id": "bryce",
+			"heading": "<a href=\"https://www.nps.gov/brca/index.htm\" target=\"_blank\">Bryce Canyon National Park, UT</a> (Nov 4)",
+			"carousel": [
+				{
+					"img": "https://lh3.googleusercontent.com/gps-cs-s/AC9h4noHhmhUwb0iS7J7jfoe9bZgbl0QjU7SzQfUO1Z9zR0k_mba15vxoGgI3kG9Y0Viq3_iIOuX6A9VrRC58Yvb2o3wrMPHG1NzpcvoGkGGuqb_yHG1UNgbeCk7Asi2ESbhI6MPOwiG=s1360-w1360-h1020",
+					"caption": "Bryce Canyon National Park"
+				},
+				{
+					"img": "https://www.nps.gov/common/uploads/cropped_image/primary/AE0A7D79-92C4-9BEE-57770E7B5299DE41.jpg?width=1600&quality=90&mode=crop",
+					"caption": "Navajo Loop Trail"
+				},
+				{
+					"img": "https://lh3.googleusercontent.com/gps-cs-s/AC9h4no587TsHHDoFkqLr1vH6ju7ox7Vy8SkzL1jivQP6XY4ecbT4BgUU9zbGQfKBKsKUzOxuNgeR0w31WBWn997maX2haYuvGOgh3OQug29kZelwHFpwDf5KitowrmW_igGhNiyz5-W=s1360-w1360-h1020",
+					"caption": "Bryce"
+				},
+				{
+					"img": "https://www.nps.gov/common/uploads/cropped_image/primary/47C76958-A120-310D-EE19D8ABBFE4B8A6.jpg?width=1300&quality=90&mode=crop",
+					"caption": "Bryce Amphitheater"
+				}
+			],
+			"listItems": ["Bryce Amphitheater", "Navajo Loop Trail", "Sunset Point"]
+		},
+		{
+			"id": "page",
+			"heading": "<a href=\"https://www.visitpagearizona.com/\" target=\"_blank\">Page, AZ</a> (Nov 5)",
+			"carousel": [
+				{
+					"img": "https://encrypted-tbn0.gstatic.com/licensed-image?q=tbn:ANd9GcSTS1pk8mXijiQVo4GmbtQ7ZyVQtm1kZkIIXRTM-j8OKOsNSRDUHYaidlaaWufsNg03y4ye8wGVhdkcrl0dCKC-oTjwaCG5kCk1zm43vg",
+					"caption": "Antelope Canyon"
+				},
+				{
+					"img": "https://encrypted-tbn2.gstatic.com/licensed-image?q=tbn:ANd9GcQlsJ-JRHy67KjEVqY7UA4hyV1fFdHST17YggYnuZyaZC6gLYND__SiqHut7iv1w7uS5ZFrM00Zcgsn1_sGNM0WjNjwLRJDFT8RiNFSCQ",
+					"caption": "Horseshoe Bend"
+				},
+				{
+					"img": "https://www.visitarizona.com/imager/s3_us-west-1_amazonaws_com/aot-2020/images/AntelopeCanyon_ResizedHeader_bc0d2157d501d4729a3d5631708a6b2e.jpg",
+					"caption": "Antelope Canyon"
+				},
+				{
+					"img": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b5/USA_Antelope-Canyon.jpg/960px-USA_Antelope-Canyon.jpg",
+					"caption": "Antelope Canyon"
+				}
+			],
+			"listItems": [
+				"<a href=\"https://www.antelopecanyon.com/\" target=\"_blank\">Antelope Canyon</a>",
+				"<a href=\"https://horseshoebend.com/\" target=\"_blank\">Horseshoe Bend</a>"
+			]
+		},
+		{
+			"id": "grand_canyon",
+			"heading": "<a href=\"https://www.nps.gov/grca/index.htm\" target=\"_blank\">Grand Canyon National Park, AZ</a> (Nov 6)",
+			"carousel": [
+				{
+					"img": "https://www.grandcanyontrust.org/wp-content/uploads/2024/12/Grand_Canyon_header_1800x900_c_RickGoldwasser.jpg",
+					"caption": "Grand Canyon"
+				},
+				{
+					"img": "https://res.cloudinary.com/aenetworks/image/upload/c_fill,ar_2,w_3840,h_1920,g_auto/dpr_auto/f_auto/q_auto:eco/v1/gettyimages-858637934?_a=BAVAZGDX0",
+					"caption": "Grand Canyon"
+				},
+				{
+					"img": "https://www.riversandoceans.com/wp-content/uploads/2021/08/Colorado-River-Grand-Canyon-National-Park.jpeg",
+					"caption": "Grand Canyon"
+				},
+				{
+					"img": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/aa/Dawn_on_the_S_rim_of_the_Grand_Canyon_%288645178272%29.jpg/960px-Dawn_on_the_S_rim_of_the_Grand_Canyon_%288645178272%29.jpg",
+					"caption": "Grand Canyon"
+				}
+			],
+			"listItems": ["South Rim", "Rim Trail", "Visitor Center"],
+			"callouts": [
+				{
+					"type": "fact",
+					"title": "Interesting facts",
+					"items": [
+						"One of the Seven Natural Wonders of the World",
+						"Exposes a vast geological record, with rock layers dating back as far as 2 billion years",
+						"The canyon is 277 miles long, 18 miles wide, and a mile deep"
+					]
+				}
+			]
+		},
+		{
+			"id": "sedona",
+			"heading": "<a href=\"https://visitsedona.com/\" target=\"_blank\">Sedona, AZ</a> (Nov 7)",
+			"carousel": [
+				{
+					"img": "https://encrypted-tbn2.gstatic.com/licensed-image?q=tbn:ANd9GcRRINAydE7_D2_oUJGTwxBFofq63rWBjPvTdI4W8NQsfl8-I0ySnEK0z6phpNfFMiUiGgrVwl1kd20lt1OchmmNBSTAlMQlw3pvqQ9mCg",
+					"caption": "Sedona"
+				},
+				{
+					"img": "https://encrypted-tbn0.gstatic.com/licensed-image?q=tbn:ANd9GcS5NpTjb0TBz4jMkHaytFYt1Qr-j91W3ek-EajFf6C63IGu-Ujin7lRLzCCwbl1l2z4FRKJat0MXiHdrIDHNA8605GFAU8qCwRFRnWkw",
+					"caption": "Cathedral Rock"
+				},
+				{
+					"img": "https://encrypted-tbn1.gstatic.com/licensed-image?q=tbn:ANd9GcSumVGrIPSlZQHv2vrB0WEU48XkiWfGqAMt-nd4zdySEgRpbwgHA56uBSLlAEWLMsmm7X6cQyrmgVaQ4a1b_4ekTRcLNSI1ebTEpPf-cw",
+					"caption": "Sedona"
+				},
+				{
+					"img": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/12/36/d9/e9/patio-de-las-campanas.jpg?w=900&h=500&s=1",
+					"caption": "Tlaquepaque Village"
+				}
+			],
+			"listItems": ["Cathedral Rock", "Tlaquepaque Village"]
+		},
+		{
+			"id": "phoenix",
+			"heading": "<a href=\"https://www.visitphoenix.com/\" target=\"_blank\">Phoenix, AZ</a> (Nov 8)",
+			"carousel": [
+				{
+					"img": "https://dbg.org/wp-content/uploads/2024/01/Letter-Header.jpg",
+					"caption": "Botanical Garden"
+				},
+				{
+					"img": "https://encrypted-tbn3.gstatic.com/licensed-image?q=tbn:ANd9GcSQW9HZ_2omLzPZyHwSjXXE2VxxeR2i_PqlIguvIhcQr-VBMX2T8h0KaPVF5dqmBnAr8H2HpEkhZ4PtRVL-9WAeL8qdrjZyhJBOHJTMZg",
+					"caption": "Phoenix"
+				},
+				{
+					"img": "https://www.visitarizona.com/imager/s3_us-west-1_amazonaws_com/aot-2020/images/Hero-Images/Phoenix-cityscape_b2b0b89039603b931027eb2900b66531.jpg",
+					"caption": "Phoenix"
+				}
+			],
+			"listItems": [
+				"<a href=\"https://dbg.org/\" target=\"_blank\">Desert Botanical Garden</a>",
+				"<a href=\"https://mim.org/\" target=\"_blank\">Musical Instrument Museum</a>"
+			]
+		}
+	],
+	"drivingSchedule": {
+		"headers": ["Date", "Start Time", "Duration", "From", "To"],
+		"rows": [
+			["Nov 1", "1:00 PM", "5 hours", "San Diego", "Las Vegas"],
+			["Nov 2", "6:30 PM", "2.5 hours", "Las Vegas", "Zion"],
+			["Nov 3", "", "", "", ""],
+			["Nov 4", "9:00 AM", "2.5 hours", "Zion", "Bryce"],
+			["Nov 4", "6:00 PM", "3 hours", "Bryce", "Page"],
+			["Nov 5", "6:30 PM", "2.5 hours", "Page", "Grand Canyon"],
+			["Nov 6", "", "", "", ""],
+			["Nov 7", "9:00 AM", "2 hours", "Grand Canyon", "Sedona"],
+			["Nov 8", "9:00 AM", "2 hours", "Sedona", "Phoenix"]
+		]
+	},
+	"lightbox": {
+		"triggerImg": "https://i.ibb.co/MxGMMKtj/West-Coast-Trip-Driving-Schedule-copy.png",
+		"triggerCaption": "West Coast Trip – Driving Schedule",
+		"lightboxImg": "https://i.ibb.co/MxGMMKtj/West-Coast-Trip-Driving-Schedule-copy.png",
+		"lightboxCaption": "West Coast Trip – Driving Schedule"
+	}
+}
