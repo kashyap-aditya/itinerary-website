@@ -21,7 +21,7 @@ fetch("data/itineraries.json")
         <a href="itinerary.html#${trip.id}">
           ${trip.title}
         </a>
-        <small>(${new Date(trip.date).toLocaleDateString()})</small>
+        <small>(${trip.dates})</small>
       `;
 			ul.appendChild(li);
 		});
