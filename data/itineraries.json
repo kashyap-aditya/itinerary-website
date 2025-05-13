@@ -3,5 +3,10 @@
 		"id": "west_coast_desert",
 		"title": "West Coast, Ocean + Desert",
 		"dates": "October 29 – November 8, 2025"
+	},
+	{
+		"id": "west_coast_coastal_trip",
+		"title": "West Coast, Coastal",
+		"dates": "October 29 – November 8, 2025"
 	}
 ]
