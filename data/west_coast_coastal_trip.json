@@ -58,7 +58,7 @@
 				"Nov 1 (Sat)",
 				"<a href=\"#san_diego\">San Diego</a> \u2192 <a href=\"#santa_barbara\">Santa Barbara</a>",
 				"Scenic coastal drive via PCH with stops at Dana Point, Malibu",
-				"9:00 AM \u2013 3:00 PM (6 hrs incl. stops)"
+				"12:00 PM \u2013 6:00 PM (3 hr drive, 6 hrs incl. stops)"
 			],
 			[
 				"Day 5",
@@ -72,14 +72,14 @@
 				"Nov 3 (Mon)",
 				"<a href=\"#santa_barbara\">Santa Barbara</a> \u2192 <a href=\"#san_luis_obispo\">San Luis Obispo</a>",
 				"Stops at Solvang and Pismo Beach en route",
-				"10:00 AM \u2013 2:00 PM (4 hrs incl. stops)"
+				"12:00 PM \u2013 4:00 PM (1.5 hr drive, 4 hrs incl. stops)"
 			],
 			[
 				"Day 7",
 				"Nov 4 (Tue)",
 				"<a href=\"#san_luis_obispo\">San Luis Obispo</a> \u2192 <a href=\"#big_sur\">Big Sur</a>",
 				"Visit Morro Bay, Hearst Castle, Elephant Seal Beach",
-				"9:00 AM \u2013 4:00 PM (7 hrs incl. stops)"
+				"10:00 AM \u2013 4:00 PM (3 hr drive, 6 hrs incl. stops)"
 			],
 			[
 				"Day 8",
@@ -93,7 +93,7 @@
 				"Nov 6 (Thu)",
 				"<a href=\"#big_sur\">Big Sur</a> \u2192 <a href=\"#san_francisco\">San Francisco</a>",
 				"Stops at Carmel-by-the-Sea, Monterey, Santa Cruz",
-				"9:00 AM \u2013 5:00 PM (8 hrs incl. stops)"
+				"9:00 AM \u2013 5:00 PM (2 hr drive, 6-8 hrs incl. stops)"
 			],
 			[
 				"Day 10",
@@ -194,12 +194,16 @@
 					"caption": "Santa Barbara Coast"
 				},
 				{
-					"img": "https://media.timeout.com/images/105297522/image.jpg",
-					"caption": "Santa Barbara Mission"
+					"img": "https://drupal-prod.visitcalifornia.com/sites/default/files/styles/opengraph_1200x630/public/vc_spotlight_santabarbara_hero_st_rm_529573764_1280x640.jpg.webp?itok=YrOHJOZg",
+					"caption": "Santa Barbara"
 				},
 				{
-					"img": "https://santabarbaraca.com/wp-content/uploads/2022/02/Stearns-Wharf.jpg",
-					"caption": "Stearns Wharf"
+					"img": "https://lp-cms-production.imgix.net/2024-12/Shutterstock186049676.jpg",
+					"caption": "Santa Barbara"
+				},
+				{
+					"img": "https://drupal-prod.visitcalifornia.com/sites/default/files/styles/opengraph_1200x630/public/vc_spotlight_santabarbara_hero_st_rm_529573764_1280x640.jpg.webp?itok=YrOHJOZg",
+					"caption": "Santa Barbara"
 				}
 			],
 			"paragraphs": [
@@ -259,12 +263,16 @@
 					"caption": "San Luis Obispo"
 				},
 				{
-					"img": "https://upload.wikimedia.org/wikipedia/commons/e/eb/Bubblegum_Alley.jpg",
-					"caption": "Bubblegum Alley"
+					"img": "https://drupal-prod.visitcalifornia.com/sites/default/files/styles/fluid_1920/public/VCW_D_SLO_T6_CalPolyPeaks_DSCF4148RGB_1280x642.jpg.webp?itok=h6sRsQJg",
+					"caption": "San Luis Obispo"
 				},
 				{
-					"img": "https://www.experiencesanluisobispocounty.com/uploads/1/1/5/5/11558606/editor/morro-bay_1.jpg",
-					"caption": "Morro Bay"
+					"img": "https://www.colorado.aaa.com/sites/default/files/article_featured/ND21_TDI_SLOC_Coast_900x600.jpg",
+					"caption": "San Luis Obispo"
+				},
+				{
+					"img": "https://www.planetware.com/photos-large/USCA/san-luis-obispo-avila-beach.jpg",
+					"caption": "San Luis Obispo"
 				}
 			],
 			"paragraphs": [
@@ -320,16 +328,20 @@
 			"heading": "<a href=\"https://www.bigsurcalifornia.org/\" target=\"_blank\">Big Sur, CA</a> (Nov 4 \u2013 Nov 6)",
 			"carousel": [
 				{
+					"img": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/09/Central_Californian_Coastline%2C_Big_Sur_-_May_2013.jpg/2560px-Central_Californian_Coastline%2C_Big_Sur_-_May_2013.jpg",
+					"caption": "Big Sur"
+				},
+				{
 					"img": "https://tse1.mm.bing.net/th?id=OIP.cLD6vJY3pL9p4F7k3mda4QHaFS&pid=Api",
 					"caption": "McWay Falls"
 				},
 				{
-					"img": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/63/Bixby_Creek_Bridge%2C_CA%2C_jjron_25.03.2012.jpg/1200px-Bixby_Creek_Bridge%2C_CA%2C_jjron_25.03.2012.jpg",
+					"img": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/12/13/55/d9/caption.jpg?w=1200&h=-1&s=1",
 					"caption": "Bixby Creek Bridge"
 				},
 				{
-					"img": "https://www.californiabeaches.com/wp-content/uploads/2014/09/shutterstock_112106297.jpg",
-					"caption": "Pfeiffer Beach"
+					"img": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/09/Central_Californian_Coastline%2C_Big_Sur_-_May_2013.jpg/2560px-Central_Californian_Coastline%2C_Big_Sur_-_May_2013.jpg",
+					"caption": "Coastline"
 				}
 			],
 			"paragraphs": [
@@ -385,16 +397,28 @@
 			"heading": "<a href=\"https://sftravel.com/\" target=\"_blank\">San Francisco, CA</a> (Nov 6 \u2013 Nov 8)",
 			"carousel": [
 				{
-					"img": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a8/San_Francisco_as_seen_from_Twin_Peaks_in_March_2019.jpg/1920px-San_Francisco_as_seen_from_Twin_Peaks_in_March_2019.jpg",
+					"img": "https://drupal-prod.visitcalifornia.com/sites/default/files/styles/fluid_1920/public/2025-01/VC_San-Francisco-Bay-Area-Region_gty-1348089637-RF_1280x640.jpg.webp?itok=gnJSI8kT",
 					"caption": "San Francisco Skyline"
 				},
 				{
-					"img": "https://upload.wikimedia.org/wikipedia/commons/0/0c/GoldenGateBridge-001.jpg",
+					"img": "https://cdn.britannica.com/13/77413-050-95217C0B/Golden-Gate-Bridge-San-Francisco.jpg",
 					"caption": "Golden Gate Bridge"
 				},
 				{
-					"img": "https://upload.wikimedia.org/wikipedia/commons/d/d0/Alcatraz_Island_as_seen_from_the_East.jpg",
-					"caption": "Alcatraz Island"
+					"img": "https://res.cloudinary.com/aenetworks/image/upload/c_fill,ar_2,w_3840,h_1920,g_auto/dpr_auto/f_auto/q_auto:eco/v1/gettyimages-1244283878-2?_a=BAVAZGDX0",
+					"caption": "SF"
+				},
+				{
+					"img": "https://media.california.com/media/_versions/articles/famous_streets_in_san_francisco__3623x1666___v1222x580.jpg",
+					"caption": "SF"
+				},
+				{
+					"img": "https://crohnscolitiscongress.org/wp-content/uploads/2024/08/San-Francisco-Image-e1731701636186.jpg",
+					"caption": "SF"
+				},
+				{
+					"img": "https://lp-cms-production.imgix.net/2020-11/shutterstockRF_627905945.jpg?auto=format,compress&q=72&fit=crop",
+					"caption": "SF"
 				}
 			],
 			"paragraphs": [
@@ -449,10 +473,10 @@
 	"drivingSchedule": {
 		"headers": ["Date", "Start Time", "Duration", "From", "To"],
 		"rows": [
-			["Nov 1", "9:00 AM", "6 hours", "San Diego", "Santa Barbara"],
-			["Nov 3", "10:00 AM", "4 hours", "Santa Barbara", "San Luis Obispo"],
-			["Nov 4", "9:00 AM", "7 hours", "San Luis Obispo", "Big Sur"],
-			["Nov 6", "9:00 AM", "8 hours", "Big Sur", "San Francisco"]
+			["Nov 1", "12:00 PM", "3 hours", "San Diego", "Santa Barbara"],
+			["Nov 3", "12:00 PM", "1.5 hours", "Santa Barbara", "San Luis Obispo"],
+			["Nov 4", "10:00 AM", "3 hours", "San Luis Obispo", "Big Sur"],
+			["Nov 6", "10:00 AM", "2.5 hours", "Big Sur", "San Francisco"]
 		]
 	},
 	"lightbox": {
