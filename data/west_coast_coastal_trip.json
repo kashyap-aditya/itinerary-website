@@ -1,0 +1,464 @@
+{
+	"header": {
+		"title": "\ud83c\uddfa\ud83c\uddf8 San Diego to San Francisco Coastal Road Trip",
+		"subtitle": "October 29 \u2013 November 8, 2025"
+	},
+	"navLinks": [
+		{
+			"href": "#san_diego",
+			"text": "San Diego"
+		},
+		{
+			"href": "#santa_barbara",
+			"text": "Santa Barbara"
+		},
+		{
+			"href": "#san_luis_obispo",
+			"text": "San Luis Obispo"
+		},
+		{
+			"href": "#big_sur",
+			"text": "Big Sur"
+		},
+		{
+			"href": "#san_francisco",
+			"text": "San Francisco"
+		},
+		{
+			"href": "#driving",
+			"text": "Driving Schedule"
+		}
+	],
+	"summaryTable": {
+		"headers": ["Day", "Date", "Location(s)", "Activities", "Drive Details"],
+		"rows": [
+			[
+				"Day 1",
+				"Oct 29 (Wed)",
+				"<a href=\"#san_diego\">San Diego</a>",
+				"Evening arrival in San Diego",
+				"\u2013"
+			],
+			[
+				"Day 2",
+				"Oct 30 (Thu)",
+				"<a href=\"#san_diego\">San Diego</a>",
+				"Full day exploring San Diego (Balboa Park, La Jolla, Old Town)",
+				"\u2013"
+			],
+			[
+				"Day 3",
+				"Oct 31 (Fri)",
+				"<a href=\"#san_diego\">San Diego</a>",
+				"Explore Coronado Island, San Diego Zoo, and Gaslamp Quarter",
+				"\u2013"
+			],
+			[
+				"Day 4",
+				"Nov 1 (Sat)",
+				"<a href=\"#san_diego\">San Diego</a> \u2192 <a href=\"#santa_barbara\">Santa Barbara</a>",
+				"Scenic coastal drive via PCH with stops at Dana Point, Malibu",
+				"9:00 AM \u2013 3:00 PM (6 hrs incl. stops)"
+			],
+			[
+				"Day 5",
+				"Nov 2 (Sun)",
+				"<a href=\"#santa_barbara\">Santa Barbara</a>",
+				"Explore Stearns Wharf, Santa Barbara Mission, State Street",
+				"\u2013"
+			],
+			[
+				"Day 6",
+				"Nov 3 (Mon)",
+				"<a href=\"#santa_barbara\">Santa Barbara</a> \u2192 <a href=\"#san_luis_obispo\">San Luis Obispo</a>",
+				"Stops at Solvang and Pismo Beach en route",
+				"10:00 AM \u2013 2:00 PM (4 hrs incl. stops)"
+			],
+			[
+				"Day 7",
+				"Nov 4 (Tue)",
+				"<a href=\"#san_luis_obispo\">San Luis Obispo</a> \u2192 <a href=\"#big_sur\">Big Sur</a>",
+				"Visit Morro Bay, Hearst Castle, Elephant Seal Beach",
+				"9:00 AM \u2013 4:00 PM (7 hrs incl. stops)"
+			],
+			[
+				"Day 8",
+				"Nov 5 (Wed)",
+				"<a href=\"#big_sur\">Big Sur</a>",
+				"Explore McWay Falls, Pfeiffer Beach, Bixby Bridge",
+				"\u2013"
+			],
+			[
+				"Day 9",
+				"Nov 6 (Thu)",
+				"<a href=\"#big_sur\">Big Sur</a> \u2192 <a href=\"#san_francisco\">San Francisco</a>",
+				"Stops at Carmel-by-the-Sea, Monterey, Santa Cruz",
+				"9:00 AM \u2013 5:00 PM (8 hrs incl. stops)"
+			],
+			[
+				"Day 10",
+				"Nov 7 (Fri)",
+				"<a href=\"#san_francisco\">San Francisco</a>",
+				"Explore Golden Gate Bridge, Alcatraz, Fisherman\u2019s Wharf",
+				"\u2013"
+			],
+			[
+				"Day 11",
+				"Nov 8 (Sat)",
+				"<a href=\"#san_francisco\">San Francisco</a>",
+				"Morning exploration or relaxation before flight to Philly",
+				"\u2013"
+			]
+		]
+	},
+	"mapEmbedUrl": "https://www.google.com/maps/d/u/0/embed?mid=1WVVafQ2FKNwQJViBGTIc8masvlCpAw4&ehbc=2E312F",
+	"sections": [
+		{
+			"id": "san_diego",
+			"heading": "<a href=\"https://www.sandiego.org/explore/things-to-do.aspx\" target=\"_blank\">San Diego, CA</a> (Oct 29 \u2013 Oct 31)",
+			"carousel": [
+				{
+					"img": "https://images.pexels.com/photos/2157685/pexels-photo-2157685.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+					"caption": "San Diego Marina"
+				},
+				{
+					"img": "https://plus.unsplash.com/premium_photo-1697730155844-40e94785d1e1",
+					"caption": "San Diego Port"
+				},
+				{
+					"img": "https://lajollamom.com/wp-content/w3-webp/uploads/2020/04/la-jolla-cove-san-diego-beach-1-scaled.jpgw3.webp",
+					"caption": "La Jolla Cove"
+				},
+				{
+					"img": "https://images.pexels.com/photos/2440337/pexels-photo-2440337.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+					"caption": "San Diego"
+				},
+				{
+					"img": "https://img2.10bestmedia.com/Images/Photos/419982/San-Diego-Zoo_54_990x660.jpg?auto=webp&width=3840&quality=75",
+					"caption": "San Diego Zoo"
+				},
+				{
+					"img": "https://drupal-prod.visitcalifornia.com/sites/default/files/styles/opengraph_1200x630/public/vc_spotlightbalboapark_hero_botanicalgarden_st_rf_724245028_1280x640.jpg.webp?itok=hIqsNk5V",
+					"caption": "Balboa Park"
+				}
+			],
+			"paragraphs": [
+				"Nicknamed <strong>\u201cAmerica\u2019s Finest City\u201d</strong>, San Diego blends 70 miles of beaches with Spanish-Colonial history, world-class museums and a booming craft-beer scene.",
+				"<em>Weather in early November:</em> Warm afternoons ~70 \u00b0F; cool nights ~56 \u00b0F; rare rain."
+			],
+			"callouts": [
+				{
+					"type": "fact",
+					"title": "Interesting facts",
+					"items": [
+						"Home to the largest urban cultural park in the U.S. \u2014 Balboa Park.",
+						"Has over 70 miles of beautiful coastline and beaches.",
+						"One of the best year-round climates in the country."
+					]
+				},
+				{
+					"type": "experiences",
+					"title": "Sights & Experiences",
+					"items": [
+						"<strong><a href=\"https://www.balboapark.org/\" target=\"_blank\">Balboa Park</a></strong> \u2013 Museums, gardens, and the famous San Diego Zoo.",
+						"<strong><a href=\"https://zoo.sandiegozoo.org/\" target=\"_blank\">San Diego Zoo</a></strong> \u2013 World-renowned for animal conservation.",
+						"<strong><a href=\"https://www.lajolla.com/guides/lajolla-cove/\" target=\"_blank\">La Jolla Cove</a></strong> \u2013 Perfect for scenic views and sea lions."
+					]
+				},
+				{
+					"type": "food",
+					"title": "Food Highlights",
+					"items": [
+						"Try fish tacos at Oscar\u2019s Mexican Seafood.",
+						"Visit Little Italy for pasta and gelato.",
+						"Enjoy sunset drinks at George\u2019s at the Cove in La Jolla."
+					]
+				},
+				{
+					"type": "tip",
+					"title": "Practical Tips",
+					"items": [
+						"Use public transit or ride-share in the downtown area.",
+						"Bring layers \u2014 it cools down at night.",
+						"Parking in La Jolla can be tricky \u2014 go early."
+					]
+				}
+			]
+		},
+		{
+			"id": "santa_barbara",
+			"heading": "<a href=\"https://santabarbaraca.com/\" target=\"_blank\">Santa Barbara, CA</a> (Nov 1 \u2013 Nov 3)",
+			"carousel": [
+				{
+					"img": "https://tse2.mm.bing.net/th/id/OIP.kH7TVh3i97VinV8AB3hVpAHaE7?pid=Api",
+					"caption": "Santa Barbara Coast"
+				},
+				{
+					"img": "https://media.timeout.com/images/105297522/image.jpg",
+					"caption": "Santa Barbara Mission"
+				},
+				{
+					"img": "https://santabarbaraca.com/wp-content/uploads/2022/02/Stearns-Wharf.jpg",
+					"caption": "Stearns Wharf"
+				}
+			],
+			"paragraphs": [
+				"Santa Barbara is known as the 'American Riviera' for its Mediterranean-like climate and picturesque coastline.",
+				"This coastal gem is ideal for a relaxing stay filled with Spanish architecture, beaches, and fine wine."
+			],
+			"listItems": [
+				"<strong><a href=\"https://www.santabarbaraca.gov/gov/depts/parksrec/mission.asp\" target=\"_blank\">Old Mission Santa Barbara</a></strong> \u2013 A historic Spanish mission with beautiful architecture and gardens.",
+				"<strong><a href=\"https://www.stearnswharf.org/\" target=\"_blank\">Stearns Wharf</a></strong> \u2013 Great for seafood, shops, and ocean views.",
+				"<strong>Santa Ynez Valley</strong> \u2013 A short drive away and home to some of California\u2019s best wineries."
+			],
+			"callouts": [
+				{
+					"type": "fact",
+					"title": "Interesting facts",
+					"items": [
+						"Nicknamed the \u2018American Riviera\u2019 for its Mediterranean climate and style.",
+						"Famous for its Spanish Colonial Revival architecture.",
+						"Home to over 200 wineries in nearby valleys."
+					]
+				},
+				{
+					"type": "experiences",
+					"title": "Sights & Experiences",
+					"items": [
+						"<strong><a href=\"https://www.stearnswharf.org/\" target=\"_blank\">Stearns Wharf</a></strong> \u2013 Great for seafood and ocean views.",
+						"<strong><a href=\"https://santabarbaramission.org/\" target=\"_blank\">Santa Barbara Mission</a></strong> \u2013 A landmark of California history.",
+						"<strong>State Street</strong> \u2013 Central hub for dining and shopping."
+					]
+				},
+				{
+					"type": "food",
+					"title": "Food Highlights",
+					"items": [
+						"Try the seafood at Brophy Bros. on the Wharf.",
+						"Tacos at Lilly\u2019s Taqueria are a local favorite.",
+						"Don\u2019t miss McConnell\u2019s Fine Ice Cream."
+					]
+				},
+				{
+					"type": "tip",
+					"title": "Practical Tips",
+					"items": [
+						"Book wine tours to Santa Ynez Valley in advance.",
+						"Walk or bike along Cabrillo Blvd. for ocean views.",
+						"Stay centrally for easy walkability."
+					]
+				}
+			]
+		},
+		{
+			"id": "san_luis_obispo",
+			"heading": "<a href=\"https://visitslo.com/\" target=\"_blank\">San Luis Obispo, CA</a> (Nov 3 \u2013 Nov 4)",
+			"carousel": [
+				{
+					"img": "https://tse1.mm.bing.net/th?id=OIP.-zVetaaNx4NrcpgfHMCk6gHaE8&pid=Api",
+					"caption": "San Luis Obispo"
+				},
+				{
+					"img": "https://upload.wikimedia.org/wikipedia/commons/e/eb/Bubblegum_Alley.jpg",
+					"caption": "Bubblegum Alley"
+				},
+				{
+					"img": "https://www.experiencesanluisobispocounty.com/uploads/1/1/5/5/11558606/editor/morro-bay_1.jpg",
+					"caption": "Morro Bay"
+				}
+			],
+			"paragraphs": [
+				"San Luis Obispo, or SLO, is a laid-back Central Coast town rich with history, culture, and wine.",
+				"It's known for its charming downtown, mission, and the famously quirky Bubblegum Alley."
+			],
+			"listItems": [
+				"<strong>Mission San Luis Obispo</strong> \u2013 One of California\u2019s original Spanish missions.",
+				"<strong><a href=\"https://www.slocal.com/things-to-do/arts-and-culture/bubblegum-alley/\" target=\"_blank\">Bubblegum Alley</a></strong> \u2013 A must-see (and Instagram) oddity.",
+				"<strong>Edna Valley</strong> \u2013 Excellent local wine tasting region just outside of town."
+			],
+			"callouts": [
+				{
+					"type": "fact",
+					"title": "Interesting facts",
+					"items": [
+						"Often called the \u2018Happiest City in America\u2019.",
+						"Home to one of California\u2019s oldest missions.",
+						"Bubblegum Alley is covered in thousands of pieces of gum."
+					]
+				},
+				{
+					"type": "experiences",
+					"title": "Sights & Experiences",
+					"items": [
+						"<strong>Mission San Luis Obispo</strong> \u2013 A peaceful historic site.",
+						"<strong>Bubblegum Alley</strong> \u2013 Weird but wonderful photo stop.",
+						"<strong>Thursday Night Farmers\u2019 Market</strong> \u2013 A local tradition with food and music."
+					]
+				},
+				{
+					"type": "food",
+					"title": "Food Highlights",
+					"items": [
+						"Big Sky Caf\u00e9 for fresh, healthy meals.",
+						"Firestone Grill for a tri-tip sandwich.",
+						"Enjoy wine tasting in Edna Valley."
+					]
+				},
+				{
+					"type": "tip",
+					"title": "Practical Tips",
+					"items": [
+						"Park once and explore downtown on foot.",
+						"Consider a day trip to Morro Bay.",
+						"Plan dinner early \u2014 many restaurants close by 9 PM."
+					]
+				}
+			]
+		},
+		{
+			"id": "big_sur",
+			"heading": "<a href=\"https://www.bigsurcalifornia.org/\" target=\"_blank\">Big Sur, CA</a> (Nov 4 \u2013 Nov 6)",
+			"carousel": [
+				{
+					"img": "https://tse1.mm.bing.net/th?id=OIP.cLD6vJY3pL9p4F7k3mda4QHaFS&pid=Api",
+					"caption": "McWay Falls"
+				},
+				{
+					"img": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/63/Bixby_Creek_Bridge%2C_CA%2C_jjron_25.03.2012.jpg/1200px-Bixby_Creek_Bridge%2C_CA%2C_jjron_25.03.2012.jpg",
+					"caption": "Bixby Creek Bridge"
+				},
+				{
+					"img": "https://www.californiabeaches.com/wp-content/uploads/2014/09/shutterstock_112106297.jpg",
+					"caption": "Pfeiffer Beach"
+				}
+			],
+			"paragraphs": [
+				"Big Sur is a dramatic stretch of California's central coast where the Santa Lucia Mountains rise abruptly from the Pacific Ocean.",
+				"Known for its scenic driving, this region is perfect for outdoor enthusiasts and landscape lovers alike."
+			],
+			"listItems": [
+				"<strong><a href=\"https://www.parks.ca.gov/?page_id=578\" target=\"_blank\">Julia Pfeiffer Burns State Park</a></strong> \u2013 Home to McWay Falls, a waterfall dropping into the ocean.",
+				"<strong>Bixby Creek Bridge</strong> \u2013 One of the most photographed bridges in California.",
+				"<strong>Pfeiffer Beach</strong> \u2013 Stunning views and purple sand."
+			],
+			"callouts": [
+				{
+					"type": "fact",
+					"title": "Interesting facts",
+					"items": [
+						"Stretches over 90 miles of rugged California coast.",
+						"Home to the iconic Bixby Creek Bridge.",
+						"One of the most scenic drives in the U.S."
+					]
+				},
+				{
+					"type": "experiences",
+					"title": "Sights & Experiences",
+					"items": [
+						"<strong>McWay Falls</strong> \u2013 Waterfall cascading onto a beach.",
+						"<strong>Bixby Creek Bridge</strong> \u2013 Stunning photo spot.",
+						"<strong>Pfeiffer Beach</strong> \u2013 Known for purple sand and sea stacks."
+					]
+				},
+				{
+					"type": "food",
+					"title": "Food Highlights",
+					"items": [
+						"Nepenthe \u2013 Famous cliffside restaurant with views.",
+						"Big Sur Bakery \u2013 Cozy and popular breakfast/lunch stop.",
+						"Grab picnic supplies before entering \u2014 food is limited."
+					]
+				},
+				{
+					"type": "tip",
+					"title": "Practical Tips",
+					"items": [
+						"Cell service is very limited \u2014 download maps offline.",
+						"Gas up before entering Big Sur.",
+						"Start early to beat traffic and maximize daylight."
+					]
+				}
+			]
+		},
+		{
+			"id": "san_francisco",
+			"heading": "<a href=\"https://sftravel.com/\" target=\"_blank\">San Francisco, CA</a> (Nov 6 \u2013 Nov 8)",
+			"carousel": [
+				{
+					"img": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a8/San_Francisco_as_seen_from_Twin_Peaks_in_March_2019.jpg/1920px-San_Francisco_as_seen_from_Twin_Peaks_in_March_2019.jpg",
+					"caption": "San Francisco Skyline"
+				},
+				{
+					"img": "https://upload.wikimedia.org/wikipedia/commons/0/0c/GoldenGateBridge-001.jpg",
+					"caption": "Golden Gate Bridge"
+				},
+				{
+					"img": "https://upload.wikimedia.org/wikipedia/commons/d/d0/Alcatraz_Island_as_seen_from_the_East.jpg",
+					"caption": "Alcatraz Island"
+				}
+			],
+			"paragraphs": [
+				"San Francisco is a cultural and technological hub, known for its rolling hills, iconic landmarks, and historic neighborhoods.",
+				"Perfect for walking, ferry rides, and scenic views of the Bay."
+			],
+			"listItems": [
+				"<strong><a href=\"https://www.nps.gov/alca/index.htm\" target=\"_blank\">Alcatraz Island</a></strong> \u2013 A fascinating tour of the former prison with views of the Bay.",
+				"<strong>Golden Gate Bridge</strong> \u2013 Walk, bike, or drive this iconic span.",
+				"<strong>Fisherman\u2019s Wharf & Pier 39</strong> \u2013 Seafood, sea lions, and street performances."
+			],
+			"callouts": [
+				{
+					"type": "fact",
+					"title": "Interesting facts",
+					"items": [
+						"Built on 43 hills \u2014 bring your walking shoes.",
+						"Home to the oldest Chinatown in North America.",
+						"Fog is common \u2014 locals call it \u2018Karl the Fog\u2019."
+					]
+				},
+				{
+					"type": "experiences",
+					"title": "Sights & Experiences",
+					"items": [
+						"<strong>Golden Gate Bridge</strong> \u2013 Walk or bike for the full experience.",
+						"<strong>Alcatraz Island</strong> \u2013 Book ferry tours early.",
+						"<strong>Cable Cars</strong> \u2013 A fun way to explore steep streets."
+					]
+				},
+				{
+					"type": "food",
+					"title": "Food Highlights",
+					"items": [
+						"Try clam chowder in a sourdough bowl at Boudin.",
+						"Visit Chinatown for dim sum.",
+						"Explore the Ferry Building for gourmet food vendors."
+					]
+				},
+				{
+					"type": "tip",
+					"title": "Practical Tips",
+					"items": [
+						"Layered clothing is a must \u2014 weather changes fast.",
+						"Avoid driving \u2014 parking is scarce and expensive.",
+						"Use the MUNI pass for cable cars and buses."
+					]
+				}
+			]
+		}
+	],
+	"drivingSchedule": {
+		"headers": ["Date", "Start Time", "Duration", "From", "To"],
+		"rows": [
+			["Nov 1", "9:00 AM", "6 hours", "San Diego", "Santa Barbara"],
+			["Nov 3", "10:00 AM", "4 hours", "Santa Barbara", "San Luis Obispo"],
+			["Nov 4", "9:00 AM", "7 hours", "San Luis Obispo", "Big Sur"],
+			["Nov 6", "9:00 AM", "8 hours", "Big Sur", "San Francisco"]
+		]
+	},
+	"lightbox": {
+		"triggerImg": "https://i.ibb.co/MxGMMKtj/West-Coast-Trip-Driving-Schedule-copy.png",
+		"triggerCaption": "West Coast Trip – Driving Schedule",
+		"lightboxImg": "https://i.ibb.co/MxGMMKtj/West-Coast-Trip-Driving-Schedule-copy.png",
+		"lightboxCaption": "West Coast Trip – Driving Schedule"
+	}
+}
